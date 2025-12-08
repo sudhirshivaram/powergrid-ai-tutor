@@ -1,0 +1,124 @@
+{
+  "queries": [
+    {
+      "id": 1,
+      "query": "What are the main challenges in integrating solar power into the electrical grid?",
+      "category": "solar_energy",
+      "expected_topics": ["intermittency", "grid stability", "energy storage", "power fluctuations"]
+    },
+    {
+      "id": 2,
+      "query": "How does wind energy affect power grid stability?",
+      "category": "wind_energy",
+      "expected_topics": ["frequency regulation", "grid stability", "variable generation", "power quality"]
+    },
+    {
+      "id": 3,
+      "query": "What are the latest advances in battery energy storage systems?",
+      "category": "battery_storage",
+      "expected_topics": ["lithium-ion", "battery capacity", "charging efficiency", "cost reduction"]
+    },
+    {
+      "id": 4,
+      "query": "Explain smart grid technology and its benefits",
+      "category": "smart_grid",
+      "expected_topics": ["automation", "real-time monitoring", "demand response", "grid optimization"]
+    },
+    {
+      "id": 5,
+      "query": "What is the role of inverters in solar photovoltaic systems?",
+      "category": "solar_energy",
+      "expected_topics": ["DC to AC conversion", "grid connection", "power electronics", "MPPT"]
+    },
+    {
+      "id": 6,
+      "query": "How do microgrids improve energy resilience?",
+      "category": "smart_grid",
+      "expected_topics": ["distributed generation", "islanding", "reliability", "local control"]
+    },
+    {
+      "id": 7,
+      "query": "What factors affect the efficiency of wind turbines?",
+      "category": "wind_energy",
+      "expected_topics": ["wind speed", "turbine design", "power coefficient", "blade aerodynamics"]
+    },
+    {
+      "id": 8,
+      "query": "Compare different battery technologies for grid-scale storage",
+      "category": "battery_storage",
+      "expected_topics": ["lithium-ion", "flow batteries", "capacity", "lifecycle", "cost"]
+    },
+    {
+      "id": 9,
+      "query": "What are the key components of a photovoltaic system?",
+      "category": "solar_energy",
+      "expected_topics": ["solar panels", "inverter", "mounting system", "balance of system"]
+    },
+    {
+      "id": 10,
+      "query": "How does demand response help manage grid load?",
+      "category": "smart_grid",
+      "expected_topics": ["load shifting", "peak demand", "pricing signals", "consumer participation"]
+    },
+    {
+      "id": 11,
+      "query": "What are the environmental benefits of renewable energy?",
+      "category": "general",
+      "expected_topics": ["emissions reduction", "climate change", "air quality", "sustainability"]
+    },
+    {
+      "id": 12,
+      "query": "Explain maximum power point tracking in solar systems",
+      "category": "solar_energy",
+      "expected_topics": ["MPPT algorithm", "efficiency optimization", "power extraction", "IV curve"]
+    },
+    {
+      "id": 13,
+      "query": "What challenges exist in offshore wind energy?",
+      "category": "wind_energy",
+      "expected_topics": ["installation", "maintenance", "grid connection", "harsh environment"]
+    },
+    {
+      "id": 14,
+      "query": "How do energy storage systems support grid frequency regulation?",
+      "category": "battery_storage",
+      "expected_topics": ["fast response", "frequency control", "ancillary services", "power balancing"]
+    },
+    {
+      "id": 15,
+      "query": "What is the difference between centralized and distributed generation?",
+      "category": "general",
+      "expected_topics": ["power plants", "distributed resources", "grid architecture", "transmission"]
+    },
+    {
+      "id": 16,
+      "query": "How does shading affect solar panel performance?",
+      "category": "solar_energy",
+      "expected_topics": ["power loss", "bypass diodes", "panel mismatch", "output reduction"]
+    },
+    {
+      "id": 17,
+      "query": "What role does forecasting play in renewable energy integration?",
+      "category": "general",
+      "expected_topics": ["prediction", "grid planning", "uncertainty", "scheduling"]
+    },
+    {
+      "id": 18,
+      "query": "Explain the concept of capacity factor in renewable energy",
+      "category": "general",
+      "expected_topics": ["actual output", "rated capacity", "utilization", "performance metric"]
+    },
+    {
+      "id": 19,
+      "query": "What are the safety considerations for battery energy storage?",
+      "category": "battery_storage",
+      "expected_topics": ["thermal management", "fire risk", "overcharging", "safety systems"]
+    },
+    {
+      "id": 20,
+      "query": "How do power electronics enable renewable energy integration?",
+      "category": "general",
+      "expected_topics": ["inverters", "converters", "grid interface", "power quality"]
+    }
+  ]
+}

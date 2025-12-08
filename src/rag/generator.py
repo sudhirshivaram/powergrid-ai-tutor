@@ -1,0 +1,103 @@
+"""
+Generation module for creating answers using LLM.
+"""
+
+from typing import List
+from llama_index.core import VectorStoreIndex
+from llama_index.core.schema import NodeWithScore
+
+
+class Generator:
+    """
+    Handles answer generation using retrieved context and LLM.
+    """
+    
+    def __init__(self, index: VectorStoreIndex):
+        """
+        Initialize generator with a vector index.
+        
+        Args:
+            index: VectorStoreIndex to use for querying
+        """
+        self.index = index
+        
+        # Create query engine from index
+        # This handles both retrieval and generation
+        self.query_engine = index.as_query_engine()
+    
+    def generate(self, query: str) -> str:
+        """
+        Generate an answer to a query using RAG.
+        
+        Process:
+        1. Retrieve relevant chunks (handled by query_engine)
+        2. Format system prompt with context
+        3. Call LLM to generate answer
+        
+        Args:
+            query: User's question
+            
+        Returns:
+            Generated answer as string
+        """
+        # Query engine automatically:
+        # 1. Retrieves relevant chunks
+        # 2. Formats prompt with context
+        # 3. Calls LLM
+        # 4. Returns response
+        response = self.query_engine.query(query)
+        
+        return str(response)
+    
+    def generate_with_sources(self, query: str) -> dict:
+        """
+        Generate answer and return source information.
+        
+        Args:
+            query: User's question
+            
+        Returns:
+            Dictionary with 'answer' and 'sources'
+        """
+        response = self.query_engine.query(query)
+        
+        # Extract source nodes (retrieved chunks)
+        sources = []
+        if hasattr(response, 'source_nodes'):
+            for i, node in enumerate(response.source_nodes):
+                source_info = {
+                    'chunk_id': i + 1,
+                    'score': node.score if hasattr(node, 'score') else None,
+                    'text': node.text[:200] + "...",  # Preview only
+                }
+                # Add metadata if available
+                if hasattr(node, 'metadata'):
+                    source_info['metadata'] = node.metadata
+                    source_info['source'] = node.metadata.get('source', 'Unknown')
+                sources.append(source_info)
+        
+        return {
+            'answer': str(response),
+            'sources': sources
+        }
+        
+        """
+        Explanation:
+        
+        What this does:
+        
+        1. query_engine: LlamaIndex's built-in RAG engine
+        * Automatically retrieves chunks
+        * Formats prompt with context
+        * Calls LLM
+        2. generate(): Simple interface to get answers
+        3. generate_with_sources(): Returns answer + source chunks used
+        
+         The generation process:
+         
+        * Takes query: "What is solar energy?"
+        * Retrieves top 5 relevant chunks
+        * Creates prompt: "Given this context: [chunks], answer: [query]"
+        * LLM generates answer based on context
+        
+        """

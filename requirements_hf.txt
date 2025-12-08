@@ -1,0 +1,23 @@
+# Core dependencies for RAG framework and Llama Index
+llama-index-core==0.11.0
+llama-index-embeddings-gemini
+llama-index-llms-gemini
+llama-index-readers-file
+
+# Vector store integrations
+faiss-cpu
+llama-index-vector-stores-faiss  
+
+# Data collection and parsing
+arxiv
+requests
+beautifulsoup4
+
+# Document Processing
+pypdf
+
+# Additional utilities
+python-dotenv
+
+# UI dependencies
+gradio==5.0.1

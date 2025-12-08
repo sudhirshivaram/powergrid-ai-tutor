@@ -1,0 +1,139 @@
+{
+  "timestamp": "20251204_212715",
+  "top_k": 5,
+  "total_queries": 20,
+  "hit_rate": {
+    "hit_rate": 0.5,
+    "total_queries": 20,
+    "total_hits": 10,
+    "queries_missed": 10
+  },
+  "mrr": {
+    "mrr": 0.33916666666666667,
+    "total_queries": 20,
+    "queries_with_relevant": 10,
+    "coverage": 0.5
+  },
+  "individual_results": [
+    {
+      "query_id": 1,
+      "query": "What are the main challenges in integrating solar power into the electrical grid?",
+      "hit": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": 2,
+      "query": "How does wind energy affect power grid stability?",
+      "hit": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": 3,
+      "query": "What are the latest advances in battery energy storage systems?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 4,
+      "query": "Explain smart grid technology and its benefits",
+      "hit": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": 5,
+      "query": "What is the role of inverters in solar photovoltaic systems?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 6,
+      "query": "How do microgrids improve energy resilience?",
+      "hit": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": 7,
+      "query": "What factors affect the efficiency of wind turbines?",
+      "hit": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": 8,
+      "query": "Compare different battery technologies for grid-scale storage",
+      "hit": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": 9,
+      "query": "What are the key components of a photovoltaic system?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 10,
+      "query": "How does demand response help manage grid load?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 11,
+      "query": "What are the environmental benefits of renewable energy?",
+      "hit": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": 12,
+      "query": "Explain maximum power point tracking in solar systems",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 13,
+      "query": "What challenges exist in offshore wind energy?",
+      "hit": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": 14,
+      "query": "How do energy storage systems support grid frequency regulation?",
+      "hit": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": 15,
+      "query": "What is the difference between centralized and distributed generation?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 16,
+      "query": "How does shading affect solar panel performance?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 17,
+      "query": "What role does forecasting play in renewable energy integration?",
+      "hit": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": 18,
+      "query": "Explain the concept of capacity factor in renewable energy",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 19,
+      "query": "What are the safety considerations for battery energy storage?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query_id": 20,
+      "query": "How do power electronics enable renewable energy integration?",
+      "hit": 0,
+      "reciprocal_rank": 0.0
+    }
+  ]
+}

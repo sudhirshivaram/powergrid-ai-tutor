@@ -1,0 +1,902 @@
+{
+  "papers": [
+    {
+      "id": "2209.10689v1",
+      "title": "The Effects of Electronic and Photonic Coupling on the Performance of a Photothermionic-Photovoltaic Hybrid Solar Device",
+      "authors": [
+        "Ehsanur Rahman",
+        "Alireza Nojeh"
+      ],
+      "published": "2022-09-21T22:28:53+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "This work presents a detailed analysis of the photothermionic-photovoltaic hybrid solar device. The electrons in this hybrid device gain energy from both the solar photons and thermophotons generated within the device, and hence the device has the potential to offer a voltage boost compared to individual photothermionic or photovoltaic devices. We show that the gap size between the photothermionic emitter and the photovoltaic collector crucially affects the device performance due to the strong dependence of the electronic and photonic coupling strengths on this gap size. We also investigate how the current matching constraint between the thermionic and photovoltaic stages can affect the hybrid solar device performance by studying different hybrid device configurations. Moreover, the hybrid devices are compared with the single photothermionic solar device with a metallic collector. Interestingly, we observe that the addition of a photovoltaic stage meant to enable the hybrid device to capture the entire terrestrial solar spectrum does not necessarily lead to higher overall conversion efficiency.",
+      "pdf_url": "https://arxiv.org/pdf/2209.10689v1",
+      "local_path": "2209.10689v1.pdf"
+    },
+    {
+      "id": "2101.08019v2",
+      "title": "UMG silicon for solar PV: from defects detection to PV module degradation",
+      "authors": [
+        "Eduardo Fornies",
+        "Carlos del Canizo",
+        "Laura Mendez",
+        "Alejandro Souto",
+        "Antonio Perez-Vazquez",
+        "Daniel Garrain"
+      ],
+      "published": "2021-01-20T08:35:01+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "Upgraded metallurgical grade silicon (UMG-Si) for photovoltaic (PV) solar applications has been manufactured through the metallurgical route by means of the process developed by Ferrosolar. In an ambitious mass production test, performed in commercial solar cells and modules production lines, the silicon was proven to be appropriate for photovoltaics applications (Fornies et al., 2019 Mass production test of solar cells and modules made of 100% umg silicon. 20.76% record efficiency. Energies 12), reaching, in a conventional production line, up to 20.76% of solar cell efficiency with multicrystalline cells made of 100% UMG silicon. In this paper we present more results from the mentioned massive test. Defect engineering is being applied to improve the bulk lifetime of the UMG wafers and to guide in the identification of the limiting defects in the material. Moreover, the modules produced with 100% UMG silicon solar cells were installed together with the modules produced in the same production line with polysilicon material to assess the degradation of the UMG silicon when compared to polysilicon. After 24 months of outdoor PV generation, the degradation, in terms of Performance Ratio at 25C (25PR) diminution, has been the same for both types of modules. Additionally, a Life Cycle Assessment (LCA) has been performed for this UMG silicon and state-of-the-art Siemens polysilicon to compare the environmental impact of both silicon feedstocks. The results presented in this paper; chemical analysis of wafers, defect engineering, low degradation, average efficiency and environmental assessment, lead to a complete study of UMG silicon, confirming its potential to be used as raw material for PV applications.",
+      "pdf_url": "https://arxiv.org/pdf/2101.08019v2",
+      "local_path": "2101.08019v2.pdf"
+    },
+    {
+      "id": "2004.00308v2",
+      "title": "Radiation hardness and post irradiation regeneration behavior of GaInAsP solar cells",
+      "authors": [
+        "R. Lang",
+        "J. Sch\u00f6n",
+        "J. Lef\u00e8vre",
+        "B. Boizot",
+        "F. Dimroth",
+        "D. Lackner"
+      ],
+      "published": "2020-04-01T09:42:26+00:00",
+      "categories": [
+        "physics.app-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "summary": "Recent developments have renewed the demand for solar cells with increased tolerance to radiation damage. To investigate the specific irradiation damage of 1 MeV electron irradiation in GaInAsP lattice matched to InP for varying In and P contents, a simulation based analysis is employed: by fitting the quantum efficiency and open-circuit voltage simultaneously before and after irradiation, the induced changes in lifetime are detected. Furthermore, the reduction of irradiation damage during regeneration under typical satellite operating conditions for GEO missions (60\u00b0C and AM0 illumination) is investigated. A clear decrease of the radiation damage is observed after post irradiation regeneration. This regeneration effect is stronger for increasing InP-fraction. It is demonstrated that the irradiation induced defect recombination coefficient for irradiation with 1 MeV electrons after regeneration for 216 hours can be described with a linear function of InP-fraction between 1*10$^{-5}$ cm$^2$/s for GaAs and 7*10$^{-7}$ cm$^2$/s for InP. The results show that GaInAsP is a promising material for radiation hard space solar cells.",
+      "pdf_url": "https://arxiv.org/pdf/2004.00308v2",
+      "local_path": "2004.00308v2.pdf"
+    },
+    {
+      "id": "1712.01369v1",
+      "title": "CH3NH3PbI3/GeSe bilayer heterojunction solar cell with high performance",
+      "authors": [
+        "Guo-Jiao Hou",
+        "Dong-Lin Wang",
+        "Roshan Ali",
+        "Yu-Rong Zhou",
+        "Zhen-Gang Zhu",
+        "Gang Su"
+      ],
+      "published": "2017-10-24T13:11:20+00:00",
+      "categories": [
+        "physics.app-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "summary": "Perovskite (CH3NH3PbI3) solar cells have made significant advances recently. In this paper, we propose a bilayer heterojunction solar cell comprised of a perovskite layer combining with a IV-VI group semiconductor layer, which can give a conversion efficiency even higher than the conventional perovskite solar cell. Such a scheme uses a property that the semiconductor layer with a direct band gap can be better in absorption of long wavelength light and is complementary to the perovskite layer. We studied the semiconducting layers such as GeSe, SnSe, GeS, and SnS, respectively, and found that GeSe is the best, where the optical absorption efficiency in the perovskite/GeSe solar cell is dramatically increased. It turns out that the short circuit current density is enhanced 100% and the power conversion efficiency is promoted 42.7% (to a high value of 23.77%) larger than that in a solar cell with only single perovskite layer. The power conversion efficiency can be further promoted so long as the fill factor and open-circuit voltage are improved. This strategy opens a new way on developing the solar cells with high performance and practical applications.",
+      "pdf_url": "https://arxiv.org/pdf/1712.01369v1",
+      "local_path": "1712.01369v1.pdf"
+    },
+    {
+      "id": "2007.11574v2",
+      "title": "Solar Thermoradiative-Photovoltaic Energy Conversion",
+      "authors": [
+        "Eric J. Tervo",
+        "William A. Callahan",
+        "Eric S. Toberer",
+        "Myles A. Steiner",
+        "Andrew J. Ferguson"
+      ],
+      "published": "2020-07-22T17:55:34+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "We propose a solar thermal energy conversion system consisting of a solar absorber, a thermoradiative cell or negative illumination photodiode, and a photovoltaic cell. Because it is a heat engine, this system can also be paired with thermal storage to provide reliable electricity generation. Heat from the solar absorber drives radiative recombination current in the thermoradiative cell, and its emitted light is absorbed by the photovoltaic cell to provide an additional photocurrent. Based on the principle of detailed balance, we calculate a limiting solar conversion efficiency of 85% for fully concentrated sunlight and 45% for one sun with an absorber and single-junction cells of equal areas. Ideal and nonideal solar thermoradiative-photovoltaic systems outperform solar thermophotovoltaic converters for low bandgaps and practical absorber temperatures. Their performance enhancement results from a high tolerance to nonradiative generation/recombination and an ability to minimize radiative heat losses. We show that a realistic device with all major losses could achieve increases in solar conversion efficiency by up to 7.9% (absolute) compared to a solar thermophotovoltaic device under low optical concentration. Our results indicate that these converters could serve as efficient heat engines for low cost single axis tracking systems.",
+      "pdf_url": "https://arxiv.org/pdf/2007.11574v2",
+      "local_path": "2007.11574v2.pdf"
+    },
+    {
+      "id": "1905.08024v1",
+      "title": "Novel high efficiency quadruple junction solar cell with current matching and quantum efficiency simulations",
+      "authors": [
+        "Mohammad Jobayer Hossain",
+        "Bibek Tiwari",
+        "Indranil Bhattacharya"
+      ],
+      "published": "2019-03-23T16:41:02+00:00",
+      "categories": [
+        "physics.app-ph",
+        "physics.optics",
+        "physics.space-ph"
+      ],
+      "summary": "A high theoretical efficiency of 47.2% was achieved by a novel combination of In0.51Ga0.49P, GaAs, In0.24Ga0.76As and In0.19Ga0.81Sb subcell layers in a simulated quadruple junction solar cell under 1 sun concentration. The electronic bandgap of these materials are 1.9 eV, 1.42 eV, 1.08 eV and 0.55 eV respectively. This unique arrangement enables the cell absorb photons from ultraviolet to deep infrared wavelengths of the sunlight. Emitter and base thicknesses of the subcells and doping levels of the materials were optimized to maintain the same current in all the four junctions and to obtain the highest conversion efficiency. The short-circuit current density, open circuit voltage and fill factor of the solar cell are 14.7 mA/cm2, 3.38 V and 0.96 respectively. In our design, we considered 1 sun, AM 1.5 global solar spectrum.",
+      "pdf_url": "https://arxiv.org/pdf/1905.08024v1",
+      "local_path": "1905.08024v1.pdf"
+    },
+    {
+      "id": "2008.10378v4",
+      "title": "Photovoltaic Self-Powered Gas Sensing: A Review",
+      "authors": [
+        "Xiao-Long Liu",
+        "Yang Zhao",
+        "Wen-Jing Wang",
+        "Sheng-Xiang Ma",
+        "Xi-Jing Ning",
+        "Li Zhao",
+        "Jun Zhuang"
+      ],
+      "published": "2020-08-21T14:43:34+00:00",
+      "categories": [
+        "physics.app-ph",
+        "physics.ins-det",
+        "physics.optics"
+      ],
+      "summary": "The self-powered sensing system could harness ambient energy to power the sensor without the need for external electrical energy. Recently, the concept of photovoltaic (PV) self-powered gas sensing has aroused wider attentions due to room-temperature operation, low power consumption, small size and potential applications. The PV self-powered gas sensors integrate the photovoltaic effects and the gas sensing function into a single chip, which could truly achieve the goal of zero power consumption for an independent gas sensing device. As an emerging concept, the PV self-powered gas sensing has been achieved by using different strategies, including integrated gas sensor and solar cell, integrated light filter and solar cell, gas-sensitive heterojunction photovoltaics, and gas-sensitive lateral photovoltaics, respectively. The purpose of this review is to summarize recent advances of PV self-powered gas sensing and also remark on the directions for future research in this topic.",
+      "pdf_url": "https://arxiv.org/pdf/2008.10378v4",
+      "local_path": "2008.10378v4.pdf"
+    },
+    {
+      "id": "1709.01787v2",
+      "title": "Organic and perovskite solar cells for space applications",
+      "authors": [
+        "Ilaria Cardinaletti",
+        "Tim Vangerven",
+        "Steven Nagels",
+        "Rob Cornelissen",
+        "Dieter Schreurs",
+        "Jaroslav Hruby",
+        "Jelle Vodnik",
+        "Dries Devisscher",
+        "Jurgen Kesters",
+        "Jan DHaen",
+        "Alexis Franquet",
+        "Valentina Spampinato",
+        "Thierry Conard",
+        "Wouter Maes",
+        "Wim Deferme",
+        "Jean V. Manca"
+      ],
+      "published": "2017-08-28T09:56:57+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "For almost sixty years, solar energy for space applications has relied on inorganic photovoltaics, evolving from solar cells made of single crystalline silicon to triple junctions based on germanium and III-V alloys. The class of organic-based photovoltaics, which ranges from all-organic to hybrid perovskites, has the potential of becoming a disruptive technology in space applications, thanks to the unique combination of appealing intrinsic properties (e.g. record high specific power, tunable absorption window) and processing possibilities. Here, we report on the launch of the stratospheric mission OSCAR, which demonstrated for the first time organic-based solar cell operation in extra-terrestrial conditions. This successful maiden flight for organic-based photovoltaics opens a new paradigm for solar electricity in space, from satellites to orbital and planetary space stations.",
+      "pdf_url": "https://arxiv.org/pdf/1709.01787v2",
+      "local_path": "1709.01787v2.pdf"
+    },
+    {
+      "id": "1909.03838v2",
+      "title": "Efficient indoor p-i-n hybrid perovskite solar cells using low temperature solution processed NiO as hole extraction layers",
+      "authors": [
+        "Lethy Krishnan Jagadamma",
+        "Oskar Blaszczyk",
+        "Muhammad T. Sajjad",
+        "Arvydas Ruseckas",
+        "Ifor D. W. Samuel"
+      ],
+      "published": "2019-09-09T13:16:58+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "Hybrid perovskites have received tremendous attention due to their exceptional photovoltaic and optoelectronic properties. Among the two widely used perovskite solar cell device architectures of n-ip and p-i-n, the latter is interesting in terms of its simplicity of fabrication and lower energy input. However this structure mostly uses PEDOT:PSS as a hole transporting layer which can accelerate the perovskite solar cell degradation. Hence the development of stable, inorganic hole extraction layers (HEL), without compromising the simplicity of device fabrication is crucial in this fast-growing photovoltaic field. Here we demonstrate a low temperature (~100 oC) solution - processed and ultrathin (~ 6 nm) NiO nanoparticle thin films as an efficient HEL for CH3NH3PbI3 based perovskite solar cells. We measure a power conversion efficiency (PCE) of 13.3 % on rigid glass substrates and 8.5 % on flexible substrates. A comparison with PEDOT:PSS based MAPbI3 solar cells (PCE ~ 7.9 %) shows that NiO based solar cells have higher short circuit current density and improved open circuit voltage (1.03V). Apart from the photovoltaic performance under 1 Sun, the efficient hole extraction property of NiO is demonstrated for indoor lighting as well with a PCE of 23.0 % for NiO based CH3NH3PbI2.9Cl0.1 p-i-n solar cells under compact fluorescent lighting. Compared to the perovskite solar cells fabricated on PEDOT:PSS HEL, better shelf-life stability is observed for perovskite solar cells fabricated on NiO HEL. Detailed microstructural and photophysical investigations imply uniform morphology, lower recombination losses, and improved charge transfer properties for CH3NH3PbI3 grown on NiO HEL.",
+      "pdf_url": "https://arxiv.org/pdf/1909.03838v2",
+      "local_path": "1909.03838v2.pdf"
+    },
+    {
+      "id": "2101.08504v2",
+      "title": "Practical development of efficient thermoelectric-photovoltaic hybrid systems based on wide-gap solar cells",
+      "authors": [
+        "Bruno Lorenzi",
+        "Paolo Mariani",
+        "Andrea Reale",
+        "Aldo Di Carlo",
+        "Gang Chen",
+        "Dario Narducci"
+      ],
+      "published": "2021-01-21T08:44:26+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "The decrease of solar cell efficiency with temperature is a known problem for photovoltaics (PV). Temperature sensitivity can lead to a considerable amount of energy losses over the lifetime of solar panels. In this perspective Hybrid Thermoelectric-Photovoltaic (HTEPV) systems, which recover solar cell heat losses to produce an additional power output, can be a suitable option. However only hybridization of wide-gap solar cells is convenient in terms of efficiency gains and deserves investigation to evaluate HTEPV devices effectiveness. In this work we report the modeling and the development of customized bismuth telluride thermoelectric generators, optimized to be hybridized with amorphous silicon (aSi), Gallium Indium Phosphide (GaInP) or Perovskites solar cells. The model results showed in all three cases efficiency gains with a maximum of +3.1% for Perovskites (from 16.4% to 19.5%). These enhancements were then experimentally validated for the case of Perovskites solar cells, for which maximum gains were found to occur at typical operating temperatures of conventional PVs. This experimental evaluation demonstrated in an accurate fashion the real potential of thermoelectric hybridization of solar cells.",
+      "pdf_url": "https://arxiv.org/pdf/2101.08504v2",
+      "local_path": "2101.08504v2.pdf"
+    },
+    {
+      "id": "1809.08274v1",
+      "title": "An Energy Packet Switch for Digital Power Grids",
+      "authors": [
+        "Roberto Rojas-Cessa",
+        "Chuan-Kuo Wong",
+        "Zhengqi Jiang",
+        "Haard Shah",
+        "Haim Grebel",
+        "Ahmed Mohamed"
+      ],
+      "published": "2018-08-30T04:07:12+00:00",
+      "categories": [
+        "eess.SP",
+        "eess.SY"
+      ],
+      "summary": "We propose the design and electrical description of an energy packet switch for forwarding and delivery of energy in digital power grids in this paper. The proposed switch may receive energy from one or multiple power sources in the form of energy packets, store them and aggregate the contained energy, and forward the accumulated energy to requesting loads connected to one or multiple output ports of the switch. Energy packets are discrete amounts of energy that are associated in- or out-of-band with an address and other metadata. Loads receive these discrete amounts of finely-controlled energy rather than discretionary amounts after. The control and management of the proposed switch are based on a request-grant protocol. Using energy packets helps to manage the delivery of power in a reliable, robust, and function form that may enable features not yet available in the present power grid. The switch, as any element of a digital grid, uses a data network for the transmission of these requests and grants. The energy packet switch may be the centerpiece for creating infrastructure in the realization of the digital power grid. The design of the energy packet switch is based on shared supercapacitors to shape and manage discretization of energy. We introduce the design and analysis of the electrical properties of the proposed switch and describe the procedure used in the switch to determine the amount of energy transmitted to requesting loads.",
+      "pdf_url": "https://arxiv.org/pdf/1809.08274v1",
+      "local_path": "1809.08274v1.pdf"
+    },
+    {
+      "id": "1512.00597v2",
+      "title": "Distributed Real-Time Power Balancing in Renewable-Integrated Power Grids with Storage and Flexible Loads",
+      "authors": [
+        "Sun Sun",
+        "Min Dong",
+        "Ben Liang"
+      ],
+      "published": "2015-12-02T07:18:14+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "The large-scale integration of renewable generation directly affects the reliability of power grids. We investigate the problem of power balancing in a general renewable-integrated power grid with storage and flexible loads. We consider a power grid that is supplied by one conventional generator (CG) and multiple renewable generators (RGs) each co-located with storage,and is connected with external markets. An aggregator operates the power grid to maintain power balance between supply and demand. Aiming at minimizing the long-term system cost, we first propose a real-time centralized power balancing solution, taking into account the uncertainty of the renewable generation, loads, and energy prices. We then provide a distributed implementation algorithm, significantly reducing both computational burden and communication overhead. We demonstrate that our proposed algorithm is asymptotically optimal as the storage capacity increases and the CG ramping constraint loosens. Moreover, the distributed implementation enjoys a fast convergence rate, and enables each RG and the aggregator to make their own decisions. Simulation shows that our proposed algorithm outperforms alternatives and can achieve near-optimal performance for a wide range of storage capacity.",
+      "pdf_url": "https://arxiv.org/pdf/1512.00597v2",
+      "local_path": "1512.00597v2.pdf"
+    },
+    {
+      "id": "2004.02951v1",
+      "title": "Power systems with high renewable energy sources: A review of inertia and frequency control strategies over time",
+      "authors": [
+        "Ana Fern\u00e1ndez-Guillam\u00f3n",
+        "Emilio G\u00f3mez-L\u00e1zaro",
+        "Eduard Muljadi",
+        "Angel Molina-Garc\u00eda"
+      ],
+      "published": "2020-04-06T19:23:00+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "Traditionally, inertia in power systems has been determined by considering all the rotating masses directly connected to the grid. During the last decade, the integration of renewable energy sources, mainly photovoltaic installations and wind power plants, has led to a significant dynamic characteristic change in power systems. This change is mainly due to the fact that most renewables have power electronics at the grid interface. The overall impact on stability and reliability analysis of power systems is very significant. The power systems become more dynamic and require a new set of strategies modifying traditional generation control algorithms. Indeed, renewable generation units are decoupled from the grid by electronic converters, decreasing the overall inertia of the grid. 'Hidden inertia', 'synthetic inertia' or 'virtual inertia' are terms currently used to represent artificial inertia created by converter control of the renewable sources. Alternative spinning reserves are then needed in the new power system with high penetration renewables, where the lack of rotating masses directly connected to the grid must be emulated to maintain an acceptable power system reliability. This paper reviews the inertia concept in terms of values and their evolution in the last decades, as well as the damping factor values. A comparison of the rotational grid inertia for traditional and current averaged generation mix scenarios is also carried out. In addition, an extensive discussion on wind and photovoltaic power plants and their contributions to inertia in terms of frequency control strategies is included in the paper.",
+      "pdf_url": "https://arxiv.org/pdf/2004.02951v1",
+      "local_path": "2004.02951v1.pdf"
+    },
+    {
+      "id": "2208.01883v2",
+      "title": "Integrating Black Start Capabilities into Offshore Wind Farms by Grid-Forming Batteries",
+      "authors": [
+        "Daniela Pagnani",
+        "\u0141ukasz H. Kocewiak",
+        "Jesper Hjerrild",
+        "Frede Blaabjerg",
+        "Claus Leth Bak"
+      ],
+      "published": "2022-08-03T07:24:41+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "Power systems are currently experiencing a transition towards decarbonisation of electrical generation through large-scale deployment of renewable energy sources. These are gradually replacing conventional thermal power plants which today are the main providers of black start (BS) services. Consequently, in case of a total/partial blackout, conventional black-start resources are not ready for operation. Offshore wind farms (OWFs), with their large capacity and fast controllers, have potential as novel BS units. This new service introduces a need for a new design for wind power systems to be able to fulfil the black start requirements for non-traditional generation units. In this paper, challenges, and possible solutions in integrating BS services into OWFs will be presented. A first challenge is represented by the implementation of a BS unit. The BS unit should be capable of firstly forming the wind farm power island and withstanding transient phenomena due to energisation. There could be several different solutions, e.g., the integration of grid-forming converters in the wind farm design which could be battery energy storage systems (BESSs). In this paper, specific challenges are analysed using simulations on a wind farm equipped with a grid-forming BESS, and the proposed solutions discussed. It can be concluded that a hybrid system comprised of a BESS and an OWF, in combination with novel technologies such as grid-forming control, soft-charging, etc. represents a feasible proposal for being able to provide BS services with OWFs.",
+      "pdf_url": "https://arxiv.org/pdf/2208.01883v2",
+      "local_path": "2208.01883v2.pdf"
+    },
+    {
+      "id": "2207.08146v1",
+      "title": "Mapping Disruption Sources in the Power Grid and Implications for Resilience",
+      "authors": [
+        "Maureen S. Golan",
+        "Javad Mohammadi"
+      ],
+      "published": "2022-07-17T11:42:34+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "Developing models and metrics that can address resilience against disruptions is vital to ensure power grid reliability and that adequate recovery and adaptation mechanisms are in place. In this paper, we propose a novel disruption mapping approach and apply it to the publicly available U.S. Department of Energy DOE-417 Electric Emergency and Disturbance Report to holistically analyze the origin of anomalous events and their propagation through the cyber, physical and human domains. We show that capturing the disruption process onset has implications for quantifying, mitigating, and reporting power grid resilience.",
+      "pdf_url": "https://arxiv.org/pdf/2207.08146v1",
+      "local_path": "2207.08146v1.pdf"
+    },
+    {
+      "id": "2502.09290v2",
+      "title": "Dynamic Rolling Horizon Optimization for Network-Constrained V2X Value Stacking of Electric Vehicles Under Uncertainties",
+      "authors": [
+        "Canchen Jiang",
+        "Ariel Liebman",
+        "Bo Jie",
+        "Hao Wang"
+      ],
+      "published": "2025-02-13T13:06:56+00:00",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "summary": "Electric vehicle (EV) coordination can provide significant benefits through vehicle-to-everything (V2X) by interacting with the grid, buildings, and other EVs. This work aims to develop a V2X value-stacking framework, including vehicle-to-building (V2B), vehicle-to-grid (V2G), and energy trading, to maximize economic benefits for residential communities while maintaining distribution voltage. This work also seeks to quantify the impact of prediction errors related to building load, renewable energy, and EV arrivals. A dynamic rolling-horizon optimization (RHO) method is employed to leverage multiple revenue streams and maximize the potential of EV coordination. To address energy uncertainties, including hourly local building load, local photovoltaic (PV) generation, and EV arrivals, this work develops a Transformer-based forecasting model named Gated Recurrent Units-Encoder-Temporal Fusion Decoder (GRU-EN-TFD). The simulation results, using real data from Australia's National Electricity Market, and the Independent System Operators in New England and New York in the US, reveal that V2X value stacking can significantly reduce energy costs. The proposed GRU-EN-TFD model outperforms the benchmark forecast model. Uncertainties in EV arrivals have a more substantial impact on value-stacking performance, highlighting the significance of its accurate forecast. This work provides new insights into the dynamic interactions among residential communities, unlocking the full potential of EV batteries.",
+      "pdf_url": "https://arxiv.org/pdf/2502.09290v2",
+      "local_path": "2502.09290v2.pdf"
+    },
+    {
+      "id": "2006.03514v3",
+      "title": "Tertiary Regulation of Cascaded Run-of-the-River Hydropower in the Islanded Renewable Power System Considering Multi-Timescale Dynamics",
+      "authors": [
+        "Yiwei Qiu",
+        "Jin Lin",
+        "Feng Liu",
+        "Ningyi Dai",
+        "Yonghua Song",
+        "Gang Chen",
+        "Lijie Ding"
+      ],
+      "published": "2020-06-05T15:35:34+00:00",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "summary": "To enable power supply in rural areas and to exploit clean energy, fully renewable power systems consisting of cascaded run-of-the-river hydropower and volatile energies such as pv and wind are built around the world. In islanded operation mode, the primary and secondary frequency control, i.e., hydro governors and automatic generation control (AGC), are responsible for the frequency stability. However, due to limited water storage capacity of run-of-the-river hydropower and river dynamics constraints, without coordination between the cascaded plants, the traditional AGC with fixed participation factors cannot fully exploit the adjustability of cascaded hydropower. When imbalances between the volatile energy and load occur, load shedding can be inevitable. To address this issue, this paper proposes a coordinated tertiary control approach by jointly considering power system dynamics and the river dynamics that couples the cascaded hydropower plants. The timescales of the power system and river dynamics are very different. To unify the multi-timescale dynamics to establish a model predictive controller that coordinates the cascaded plants, the relation between AGC parameters and turbine discharge over a time interval is approximated by a data-based second-order polynomial surrogate model. The cascaded plants are coordinated by optimising AGC participation factors in a receding-horizon manner, and load shedding is minimised. Simulation of a real-life system with real-time pv data collected on site shows the proposed method significantly reduces load loss under pv volatility.",
+      "pdf_url": "https://arxiv.org/pdf/2006.03514v3",
+      "local_path": "2006.03514v3.pdf"
+    },
+    {
+      "id": "2111.11317v1",
+      "title": "Electric Vehicle Attack Impact on Power Grid Operation",
+      "authors": [
+        "Mohammad Ali Sayed",
+        "Ribal Atallah",
+        "Chadi Assi",
+        "Mourad Debbabi"
+      ],
+      "published": "2021-11-22T16:21:57+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "The increasing need for reducing greenhouse gas emissions and the drive for green cities have promoted the use of electric vehicles due to their environmental benefits. In fact, countries have set their own targets and are offering incentives for people to purchase EVs as opposed to traditional gasoline-powered cars. Manufacturers have been hastily deploying charging stations to meet the charging requirements of the EVs on the road. This rapid deployment has contributed to the EV ecosystem's lack of proper security measures, raising multiple questions related to the power grid security and vulnerability. In this paper, we offer a complete examination of the EV ecosystem from the vulnerability to the attacks and finally the solutions. We start by examining the existing vulnerabilities in the EV ecosystem that can be exploited to control the EV charging and launch attacks against the power grid. We then discuss the non-linear nature of the EV charging load and simulate multiple attacks that can be launched against the power grid using these EVs. EV loads have high reactive power demand which can have a larger impact on the grid compared to residential loads. We perform simulations on two power grids and demonstrate that while the grid can recover after a 48 MW attack utilizing traditional residential loads, a smaller 30 MW EV load attack can completely destabilize the system. Finally, we suggest several patches for the existing vulnerabilities and discuss two methods aimed at detecting EV attacks.",
+      "pdf_url": "https://arxiv.org/pdf/2111.11317v1",
+      "local_path": "2111.11317v1.pdf"
+    },
+    {
+      "id": "1706.00620v1",
+      "title": "Real-time Shared Energy Storage Management for Renewable Energy Integration in Smart Grid",
+      "authors": [
+        "Katayoun Rahbar",
+        "Mohammad R. Vedady Moghadam",
+        "Sanjib Kumar Panda"
+      ],
+      "published": "2017-06-02T10:43:31+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "Energy storage systems (ESSs) are essential components of the future smart grids with high penetration of renewable energy sources. However, deploying individual ESSs for all energy consumers, especially in large systems, may not be practically feasible mainly due to high upfront cost of purchasing many ESSs and space limitation. As a result, the concept of shared ESS enabling all users charge/discharge to/from a common ESS has become appealing. In this paper, we study the energy management problem of a group of users with renewable energy sources and controllable (i.e., demand responsive) loads that all share a common ESS so as to minimize their sum weighted energy cost. Specifically, we propose a distributed algorithm to solve the formulated problem, which iteratively derives the optimal values of charging/discharging to/from the shared ESS, while only limited information is exchanged between users and a central controller; hence, the privacy of users is preserved. With the optimal charging and discharging values obtained, each user needs to independently solve a simple linear programming (LP) problem to derive the optimal energy consumption of its controllable loads over time as well as that of purchased from the grid. Using simulations, we show that the shared ESS can achieve lower energy cost compared to the case of distributed ESSs, where each user owns its ESS and does not share it with others. Next, we propose online algorithms for the real-time energy management, under non-zero prediction errors of load and renewable energy. The proposed algorithms differ in complexity and the information required to be shared between the users and central controller, where their performance is also compared via simulations.",
+      "pdf_url": "https://arxiv.org/pdf/1706.00620v1",
+      "local_path": "1706.00620v1.pdf"
+    },
+    {
+      "id": "2101.00115v1",
+      "title": "Energy Performance Analysis of Distributed Renewables: Pacific Northwest Smart Grid Demonstration",
+      "authors": [
+        "Donald J. Hammerstrom",
+        "Yashodhan P. Agalgaonkar",
+        "Stephen T. Elbert"
+      ],
+      "published": "2021-01-01T00:00:30+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "The Pacific Northwest Smart Grid Demonstration was an electricity grid modernization project conducted in the Northwest U.S. This paper presents the analysis of renewable generation at the Renewable Energy Park located in the City of Ellensburg, WA. The community energy park concept is an intriguing model for community investment in renewable resources,but the lessons in this paper should be considered.",
+      "pdf_url": "https://arxiv.org/pdf/2101.00115v1",
+      "local_path": "2101.00115v1.pdf"
+    },
+    {
+      "id": "1706.10127v1",
+      "title": "Studying Cascading Overload Failures under High Penetration of Wind Generation",
+      "authors": [
+        "Mir Hadi Athari",
+        "Zhifang Wang"
+      ],
+      "published": "2017-06-08T20:31:11+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "While power systems are reliable infrastructures, their complex interconnectivities allow for propagation of disturbances through cascading failures which causes blackouts. Meanwhile the ever increasing penetration level of renewable generation into power grids introduces a massive amount of uncertainty to the grid that might have a severe impact on grid vulnerability to overload cascading failures. There are numerous studies in the literature that focus on modeling cascading failures with different approaches. However, there is a need for studies that simulate cascading failure considering the uncertainty coming from high penetration of renewable generation. In this study, the impacts of wind generation in terms of its penetration and uncertainty levels on grid vulnerability to cascading overload failures are studied. The simulation results on IEEE 300 bus system show that uncertainty coming from wind energy have severe impact on grid vulnerability to cascading overload failures. Results also suggest that higher penetration levels of wind energy if not managed appropriately will add to this severity due to injection of higher uncertainties into the grid.",
+      "pdf_url": "https://arxiv.org/pdf/1706.10127v1",
+      "local_path": "1706.10127v1.pdf"
+    },
+    {
+      "id": "2003.12153v1",
+      "title": "Predicting the benefit of wake steering on the annual energy production of a wind farm using large eddy simulations and Gaussian process regression",
+      "authors": [
+        "Daan van der Hoek",
+        "Bart Doekemeijer",
+        "Leif Erik Andersson",
+        "Jan-Willem van Wingerden"
+      ],
+      "published": "2020-03-23T11:58:12+00:00",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.app-ph"
+      ],
+      "summary": "In recent years, wake steering has been established as a promising method to increase the energy yield of a wind farm. Current practice in estimating the benefit of wake steering on the annual energy production (AEP) consists of evaluating the wind farm with simplified surrogate models, casting a large uncertainty on the estimated benefit. This paper presents a framework for determining the benefit of wake steering on the AEP, incorporating simulation results from a surrogate model and large eddy simulations in order to reduce the uncertainty. Furthermore, a time-varying wind direction is considered for a better representation of the ambient conditions at the real wind farm site. Gaussian process regression is used to combine the two data sets into a single improved model of the energy gain. This model estimates a 0.60% gain in AEP for the considered wind farm, which is a 76% increase compared to the estimate of the surrogate model.",
+      "pdf_url": "https://arxiv.org/pdf/2003.12153v1",
+      "local_path": "2003.12153v1.pdf"
+    },
+    {
+      "id": "2009.12485v1",
+      "title": "Improving electric power generation of a standalone wave energy converter via optimal electric load control",
+      "authors": [
+        "LiGuo Wang",
+        "MaoFeng Lin",
+        "Elisabetta Tedeschi",
+        "Jens Engstr\u00f6m",
+        "Jan Isberg"
+      ],
+      "published": "2020-09-26T00:24:02+00:00",
+      "categories": [
+        "physics.app-ph",
+        "eess.SY"
+      ],
+      "summary": "This paper aims to investigate electric dynamics and improve electric power generation of an isolated wave energy converter that uses a linear permanent magnet generator as the power take-off system, excited by regular or irregular waves. This is of significant concern when considering actual operating conditions of an offshore wave energy converter, where the device will encounter different sea states and its electric load needs to be tuned on a sea-state-to-sea-state basis. To that end, a fully coupled fluid-mechanical-electric-magnetic-electronic mathematical model and an optimization routine are developed. This proposed time-domain wave-to-wire model is used to simulate the hydrodynamic and electric response of a wave energy converter connected to specific electric loads and also used in an optimization routine that searches optimal resistive load value for a wave energy converter under specific sea states. Sample results are presented for a point-absorber type wave energy converter, showing that the electric power generation of a device under irregular waves can be significantly improved.\n  Keywords: wave energy converter, wave power system, wave-to-wire model, linear permanent magnet generator, electric load optimization.",
+      "pdf_url": "https://arxiv.org/pdf/2009.12485v1",
+      "local_path": "2009.12485v1.pdf"
+    },
+    {
+      "id": "2107.13256v3",
+      "title": "Non-stationarity in correlation matrices for wind turbine SCADA-data and implications for failure detection",
+      "authors": [
+        "Henrik M. Bette",
+        "Edgar Jungblut",
+        "Thomas Guhr"
+      ],
+      "published": "2021-07-28T10:32:35+00:00",
+      "categories": [
+        "stat.AP",
+        "physics.app-ph",
+        "physics.data-an"
+      ],
+      "summary": "Modern utility-scale wind turbines are equipped with a Supervisory Control And Data Acquisition (SCADA) system gathering vast amounts of operational data that can be used for analysis to improve operation and maintenance of turbines. We analyze high frequency SCADA-data from the Thanet offshore wind farm in the UK and evaluate Pearson correlation matrices for a variety of observables with a moving time window. This renders possible a quantitative assessment of non-stationarity in mutual dependencies of different types of data. We show that a clustering algorithm applied to the correlation matrices reveals distinct correlation structures for different states. Looking first at only one and then at multiple turbines, the main dependence of these states is shown to be on wind speed. This is in accordance with known turbine control systems, which change the behavior of the turbine depending on the available wind speed. We model the boundary wind speeds separating the states based on the clustering solution. Our analysis shows that for high frequency data the control mechanisms of a turbine lead to detectable non-stationarity in the correlation matrix. The presented methodology allows accounting for this with an automated pre-processing by sorting new data based on wind speed and comparing it to the respective operational state, thereby taking the non-stationarity into account for an analysis.",
+      "pdf_url": "https://arxiv.org/pdf/2107.13256v3",
+      "local_path": "2107.13256v3.pdf"
+    },
+    {
+      "id": "1709.06804v1",
+      "title": "Flexible transparent high-voltage diodes for energy management in wearable electronics",
+      "authors": [
+        "Yonghui Zhang",
+        "Zengxia Mei",
+        "Tao Wang",
+        "Wenxing Huo",
+        "Shujuan Cui",
+        "Huili Liang",
+        "Xiaolong Du"
+      ],
+      "published": "2017-09-20T10:39:56+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "This work reports flexible fully transparent high-voltage diodes that feature high rectification ratio (Rr 10 8) and high breakdown voltage (Vb 150 V) simultaneously, combined with their applications as building blocks of energy management systems in wearable electronics where triboelectric nanogenerators (TENGs) are used as power source. Both experimental results and technology computer aided design (TCAD) simulations suggest that Rr and Vb can be modulated by the offset length in an opposite tendency. The low reverse leakage current (fA/MICRON) guarantees an ultra-low power consumption in standby mode, which is a core issue in wearable device applications. Besides the unprecedented electrical performance, the diodes exhibit good mechanical robustness with minimal degradation throughout the strain and fatigue tests. By incorporating these high-voltage diodes into half-wave and full-wave rectifier circuits, the high alternating current (AC) output voltage of TENGs is successfully rectified into direct current (DC) voltage and charged into supercapacitors (SCs), indicating their high integration and compatibility with TENGs, and thus their promising applications in various wearable electronic systems.",
+      "pdf_url": "https://arxiv.org/pdf/1709.06804v1",
+      "local_path": "1709.06804v1.pdf"
+    },
+    {
+      "id": "2510.06831v1",
+      "title": "Early wind turbine alarm prediction based on machine learning: AlarmForecasting",
+      "authors": [
+        "Syed Shazaib Shah",
+        "Daoliang Tan"
+      ],
+      "published": "2025-10-08T09:53:49+00:00",
+      "categories": [
+        "cs.LG",
+        "physics.app-ph"
+      ],
+      "summary": "Alarm data is pivotal in curbing fault behavior in Wind Turbines (WTs) and forms the backbone for advancedpredictive monitoring systems. Traditionally, research cohorts have been confined to utilizing alarm data solelyas a diagnostic tool, merely indicative of unhealthy status. However, this study aims to offer a transformativeleap towards preempting alarms, preventing alarms from triggering altogether, and consequently avertingimpending failures. Our proposed Alarm Forecasting and Classification (AFC) framework is designed on twosuccessive modules: first, the regression module based on long short-term memory (LSTM) for time-series alarmforecasting, and thereafter, the classification module to implement alarm tagging on the forecasted alarm. Thisway, the entire alarm taxonomy can be forecasted reliably rather than a few specific alarms. 14 Senvion MM82turbines with an operational period of 5 years are used as a case study; the results demonstrated 82%, 52%,and 41% accurate forecasts for 10, 20, and 30 min alarm forecasts, respectively. The results substantiateanticipating and averting alarms, which is significant in curbing alarm frequency and enhancing operationalefficiency through proactive intervention.",
+      "pdf_url": "https://arxiv.org/pdf/2510.06831v1",
+      "local_path": "2510.06831v1.pdf"
+    },
+    {
+      "id": "1909.13780v1",
+      "title": "A parametric model for wind turbine power curves incorporating environmental conditions",
+      "authors": [
+        "Yves-Marie Saint-Drenan",
+        "Romain Besseau",
+        "Malte Jansen",
+        "Iain Staffell",
+        "Alberto Troccoli",
+        "Laurent Dubus",
+        "Johannes Schmidt",
+        "Katharina Gruber",
+        "Sofia G. Sim\u00f5es",
+        "Siegfried Heier"
+      ],
+      "published": "2019-09-26T15:17:13+00:00",
+      "categories": [
+        "eess.SP",
+        "physics.app-ph"
+      ],
+      "summary": "A wind turbine's power curve relates its power production to the wind speed it experiences. The typical shape of a power curve is well known and has been studied extensively; however, the power curves of individual turbine models can vary widely from one another. This is due to both the technical features of the turbine (power density, cut-in and cut-out speeds, limits on rotational speed and aerodynamic efficiency), and environmental factors (turbulence intensity, air density, wind shear and wind veer). Data on individual power curves are often proprietary and only available through commercial databases.\n  We therefore develop an open-source model which can generate the power curve of any turbine, adapted to the specific conditions of any site. This can employ one of six parametric models advanced in the literature, and accounts for the eleven variables mentioned above. The model is described, the impact of each technical and environmental feature is examined, and it is then validated against the manufacturer power curves of 91 turbine models. Versions of the model are made available in MATLAB, R and Python code for the community.",
+      "pdf_url": "https://arxiv.org/pdf/1909.13780v1",
+      "local_path": "1909.13780v1.pdf"
+    },
+    {
+      "id": "2011.12909v1",
+      "title": "Comprehensive Energy Balance Analysis of Photon-Enhanced Thermionic Power Generation Considering Concentrated Solar Absorption Distribution",
+      "authors": [
+        "A. N. M. Taufiq Elahi",
+        "Mohammad Ghashami",
+        "Devon Jensen",
+        "Keunhan Park"
+      ],
+      "published": "2020-11-25T17:42:49+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "The present article reports a comprehensive energy balance analysis of a photon-enhanced thermionic emission (PETE) device when it is used for concentrated solar power (CSP) generation. To this end, we consider a realistic PETE device composed of a boron-doped silicon emitter on glass and a phosphorus-doped diamond collector on tungsten separated by the inter-electrode vacuum gap. Depth-dependent spectral solar absorption and its photovoltaic and photothermal energy conversion processes are rigorously calculated to predict the PETE power output and energy conversion efficiency. Our calculation predicts that when optimized, the power output of the considered PETE device can reach 1.6 W/cm$^2$ with the energy conversion efficiency of $\\sim$18 \\% for 100$\\times$ solar concentration, which is substantially lower than those predicted in previous works under ideal conditions. In addition, the photon-enhancement ratio is lower than 10 and decreases with the increasing solar concentration due to the photothermal heating of the emitter, suggesting that PETE may be an adequate energy conversion process for low-to-medium CSP below $\\sim$100$\\times$ concentration. These observations signify the importance of a rigorous energy balance analysis based on spectral and spatial solar absorption distribution for the accurate prediction of PETE power generation.",
+      "pdf_url": "https://arxiv.org/pdf/2011.12909v1",
+      "local_path": "2011.12909v1.pdf"
+    },
+    {
+      "id": "2210.12969v2",
+      "title": "Spatial Structures of Wind Farms: Correlation Analysis of the Generated Electrical Power",
+      "authors": [
+        "Edgar Jungblut",
+        "Henrik M. Bette",
+        "Thomas Guhr"
+      ],
+      "published": "2022-10-24T06:32:11+00:00",
+      "categories": [
+        "stat.AP",
+        "physics.app-ph",
+        "physics.data-an"
+      ],
+      "summary": "We investigate the interaction of many wind turbines in a wind farm with a focus on their electrical power production. The operational data of two offshore wind farms with a ten minute and a ten second time resolution, respectively, are analyzed. For the correlations of the active power between turbines over the entire wind farms, we find a dominant collective behavior. We manage to subtract the collective behavior and find a significant dependence of the correlation structure on the spatial structure of the wind farms. We further show a connection between the observed correlation structures and the prevailing wind direction. We attribute the differences between the two wind farms to the differences in the turbine spacing within the two wind farms.",
+      "pdf_url": "https://arxiv.org/pdf/2210.12969v2",
+      "local_path": "2210.12969v2.pdf"
+    },
+    {
+      "id": "2101.08573v1",
+      "title": "Correlated power time series of individual wind turbines: A data driven model approach",
+      "authors": [
+        "Tobias Braun",
+        "Matthias Waechter",
+        "Joachim Peinke",
+        "Thomas Guhr"
+      ],
+      "published": "2021-01-21T12:23:17+00:00",
+      "categories": [
+        "stat.AP",
+        "physics.app-ph",
+        "physics.data-an"
+      ],
+      "summary": "Wind farms can be regarded as complex systems that are, on the one hand, coupled to the nonlinear, stochastic characteristics of weather and, on the other hand, strongly influenced by supervisory control mechanisms. One crucial problem in this context today is the predictability of wind energy as an intermittent renewable resource with additional non-stationary nature. In this context, we analyze the power time series measured in an offshore wind farm for a total period of one year with a time resolution of 10 min. Applying detrended fluctuation analysis, we characterize the autocorrelation of power time series and find a Hurst exponent in the persistent regime with cross-over behavior. To enrich the modeling perspective of complex large wind energy systems, we develop a stochastic reduced-form model ofpower time series. The observed transitions between two dominating power generation phases are reflected by a bistable deterministic component, while correlated stochastic fluctuations account for the identified persistence. The model succeeds to qualitatively reproduce several empirical characteristics such as the autocorrelation function and the bimodal probability density function.",
+      "pdf_url": "https://arxiv.org/pdf/2101.08573v1",
+      "local_path": "2101.08573v1.pdf"
+    },
+    {
+      "id": "2307.01585v2",
+      "title": "Packed bed thermal energy storage for waste heat recovery in the iron and steel industry: An experimental study on powder hold-up and pressure drop",
+      "authors": [
+        "Paul Schwarzmayr",
+        "Felix Birkelbach",
+        "Heimo Walter",
+        "Florian Javernik",
+        "Michael Schwaiger",
+        "Ren\u00e9 Hofmann"
+      ],
+      "published": "2023-07-04T09:24:28+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "Waste heat recovery in the energy intensive industry is one of the most important measures for the mitigation of climate change. The utilization of just a fraction of the theoretically available waste heat potential would lead to a significant reduction of the primary energy consumption and hence a reduction of greenhouse gas emissions. The present study examines the integration of a packed bed thermal energy storage for waste heat recovery in the iron and steel industry. Along with the highly fluctuating availability of excess heat the main difficulty of waste heat recovery in industrial processes is the high amount of powder that is transported by the hot exhaust gases. Therefore, investigations focus on the pressure drop and powder hold-up in a packed bed thermal energy storage that is operated with a gas-powder two phase exhaust gas as heat transfer fluid with the ultimate goal to assess its suitability and robustness under such challenging operational conditions. The results indicate, that 98 % of the powder that is introduced into the system with the heat transfer fluid during charging accumulates in the packed bed. Remarkably, most of the powder hold-up in the packed bed is concentrated near the surface at which the heat transfer fluid enters the packed bed. When reversing the flow direction of the heat transfer fluid to discharge the storage with a clean single phase gas, this gas is not contaminated with the powder that has been accumulated in previous charging periods. Further, the radial distribution of the powder hold-up in the packed bed is observed to be even which indicates that there is no risk of random flow channel formation that could affect the thermal performance (storage capacity, thermal power rate) of the system. The results reinforce the great potential of packed bed thermal energy storage systems for waste heat recovery in the energy intensive industry.",
+      "pdf_url": "https://arxiv.org/pdf/2307.01585v2",
+      "local_path": "2307.01585v2.pdf"
+    },
+    {
+      "id": "1903.03740v1",
+      "title": "Storage of electrical energy: Batteries and Supercapacitors",
+      "authors": [
+        "Trilochan Bagarti",
+        "Arun M Jayannavar"
+      ],
+      "published": "2019-03-09T05:24:23+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "In this article we shall discuss the development of electrical storage system. Since the early days of electricity people have tried various methods to store electricity. One of the earliest device was a simple electrostatic capacitor that could store less than a micro Joule of energy. The battery has been the most popular in storing electricity as it has a higher energy density. We will discuss the development of batteries and their working principle. Although capacitors has never been thought of as a practical device for electricity storage, in the recent years there has been tremendous progress in building capacitors with huge capacitance and it may soon be possible to use it as storage device. We shall discuss the technological breakthroug in supercapacitor as a storage device.",
+      "pdf_url": "https://arxiv.org/pdf/1903.03740v1",
+      "local_path": "1903.03740v1.pdf"
+    },
+    {
+      "id": "2408.09942v1",
+      "title": "Oxygen redox in battery cathodes: A brief overview",
+      "authors": [
+        "M. Hussein N. Assadi",
+        "Dorian A. H. Hanaor"
+      ],
+      "published": "2024-08-19T12:28:05+00:00",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.app-ph",
+        "physics.chem-ph"
+      ],
+      "summary": "The participation of oxygen or other anionic species in redox activities in cathode materials for lithium and sodium-ion battery systems is known to play a role in governing the useful capacity of these batteries. Directly probing anionic redox mechanisms is not possible, rather the computational analysis by density functional theory poses the main approach towards gleaning insights into anionic redox activity and harnessing these effects to maximize capacity in future electrode materials. Here we showcase material systems exhibiting this mechanism of ion insertion and removal, and present the key computational considerations in studying anionic redox activities in battery materials. Aided by new computationally derived understandings of the role of anionic redox in emerging battery materials, increasingly greater levels of useable capacities can be extracted through informed materials design.",
+      "pdf_url": "https://arxiv.org/pdf/2408.09942v1",
+      "local_path": "2408.09942v1.pdf"
+    },
+    {
+      "id": "2301.01071v1",
+      "title": "Standby efficiency and thermocline degradation of a packed bed thermal energy storage: An experimental study",
+      "authors": [
+        "Paul Schwarzmayr",
+        "Felix Birkelbach",
+        "Heimo Walter",
+        "Ren\u00e8 Hofmann"
+      ],
+      "published": "2023-01-03T12:52:09+00:00",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "summary": "The waste heat potential from industrial processes is huge and if it can be utilized it may contribute significantly to the mitigation of climate change. A packed bed thermal energy storage system is a low-cost storage technology that can be employed to enable the utilization of waste heat from industrial processes. This system can be used to store excess heat and release this energy when it is needed at a later time. To ensure the efficient operation of a packed bed thermal energy storage its characteristics in standby mode need to be studied in great detail. In the present study, the standby efficiency and thermocline degradation of a lab-scale packed bed thermal energy storage in standby mode is experimentally investigated for different flow directions of the heat transfer fluid during the preceding charging period. Results show that, for long standby periods, the standby efficiency is significantly affected by the flow direction. The maximum entropy generation rate for a 22-hour standby process with the flow direction of the heat transfer fluid from bottom to top in the preceding charging process is twice as high as for the same process with the reverse flow direction. Energy and exergy efficiencies are lower for the process with reverse flow direction by 5% and 18% respectively.",
+      "pdf_url": "https://arxiv.org/pdf/2301.01071v1",
+      "local_path": "2301.01071v1.pdf"
+    },
+    {
+      "id": "2312.17329v3",
+      "title": "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model",
+      "authors": [
+        "Malik Hassanaly",
+        "Peter J. Weddle",
+        "Ryan N. King",
+        "Subhayan De",
+        "Alireza Doostan",
+        "Corey R. Randall",
+        "Eric J. Dufek",
+        "Andrew M. Colclasure",
+        "Kandler Smith"
+      ],
+      "published": "2023-12-28T19:09:56+00:00",
+      "categories": [
+        "cs.LG",
+        "physics.app-ph"
+      ],
+      "summary": "To plan and optimize energy storage demands that account for Li-ion battery aging dynamics, techniques need to be developed to diagnose battery internal states accurately and rapidly. This study seeks to reduce the computational resources needed to determine a battery's internal states by replacing physics-based Li-ion battery models -- such as the single-particle model (SPM) and the pseudo-2D (P2D) model -- with a physics-informed neural network (PINN) surrogate. The surrogate model makes high-throughput techniques, such as Bayesian calibration, tractable to determine battery internal parameters from voltage responses. This manuscript is the first of a two-part series that introduces PINN surrogates of Li-ion battery models for parameter inference (i.e., state-of-health diagnostics). In this first part, a method is presented for constructing a PINN surrogate of the SPM. A multi-fidelity hierarchical training, where several neural nets are trained with multiple physics-loss fidelities is shown to significantly improve the surrogate accuracy when only training on the governing equation residuals. The implementation is made available in a companion repository (https://github.com/NREL/pinnstripes). The techniques used to develop a PINN surrogate of the SPM are extended in Part II for the PINN surrogate for the P2D battery model, and explore the Bayesian calibration capabilities of both surrogates.",
+      "pdf_url": "https://arxiv.org/pdf/2312.17329v3",
+      "local_path": "2312.17329v3.pdf"
+    },
+    {
+      "id": "1912.04755v1",
+      "title": "Additive manufacturing for energy storage: Methods, designs and materials selection for customizable 3D printed batteries and supercapacitors",
+      "authors": [
+        "Umair Gulzar",
+        "Colm Glynn",
+        "Colm O'Dwyer"
+      ],
+      "published": "2019-12-10T15:18:26+00:00",
+      "categories": [
+        "physics.app-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "summary": "Additive manufacturing and 3D printing in particular have the potential to revolutionize existing fabrication processes where objects with complex structures and shapes can be built with multifunctional material systems. For electrochemical energy storage devices such as batteries and supercapacitors, 3D printing methods allows alternative form factors to be conceived based on the end use application need in mind at the design stage. Additively manufactured energy storage devices require active materials and composites that are printable and this is influenced by performance requirements and the basic electrochemistry. The interplay between electrochemical response, stability, material type, object complexity and end use application are key to realising 3D printing for electrochemical energy storage. Here, we summarise recent advances and highlight the important role of methods, designs and material selection for energy storage devices made by 3D printing, which is general to the majority of methods in use currently.",
+      "pdf_url": "https://arxiv.org/pdf/1912.04755v1",
+      "local_path": "1912.04755v1.pdf"
+    },
+    {
+      "id": "2206.08762v1",
+      "title": "Na-intercalation compounds and Na-ion batteries",
+      "authors": [
+        "Wei-Bang Li",
+        "Yu-Ming Wang",
+        "Hsien-Ching Chung",
+        "Ming-Fa Lin"
+      ],
+      "published": "2022-06-17T13:23:41+00:00",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph",
+        "physics.comp-ph"
+      ],
+      "summary": "The widely use of lithium-ion (Li-ion) batteries in various fields, from portable products to large-scale energy storage systems, has revolutionized our daily life. The 2019 Nobel Prize in Chemistry has been awarded to John B. Goodenough, M. Stanley Whittingham, and Akira Yoshino for their contributions in developing Li-ion batteries. Although Li-ion batteries are currently on-growing research topics, lithium availability is still a problem for mass production. In contrast to lithium, sodium resources are almost unlimited on Earth, and sodium is one of the most abundant elements in the Earth's crust. Hence, sodium-ion (Na-ion) batteries as a counterpart of Li-ion batteries have the potential to serve as the next-generation batteries. In this work, a brief history and recent development of Na-ion batteries are described. The fundamental physical and electronic properties, such as geometric structures, band structure, density of states, and spatial charge distributions, of Na-intercalation compounds are discussed. The outlook of Na-ion batteries is given at the last.",
+      "pdf_url": "https://arxiv.org/pdf/2206.08762v1",
+      "local_path": "2206.08762v1.pdf"
+    },
+    {
+      "id": "2401.15420v1",
+      "title": "Understanding the electrochemical performance and diffusion kinetics of HC$||$Na$_3$V$_2$(PO$_4$)$_3$/C full cell battery for energy storage applications",
+      "authors": [
+        "Madhav Sharma",
+        "Rajendra S. Dhaka"
+      ],
+      "published": "2024-01-27T14:17:06+00:00",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "summary": "The efficient energy storage devices are crucial to meet the soaring global energy demand for sustainable future. Recently, the sodium-ion batteries (SIBs) have emerged as one of the excellent cost effective solution due to the uniform geographical distribution and abundance of sodium. Here, we use hard carbon (HC) as an anode and Na$_3$V$_2$(PO$_4$)$_3$/C (NVP/C) as a cathode to fabricate a HC$||$NVP/C full cell battery and understand its electrochemical performance and diffusion kinetics. These materials are characterized through the analysis of x-ray diffraction and Raman spectroscopy to confirm their single phase and structure. The full cell demonstrates a high operating voltage of $\\sim$3.3 V, with minimal polarization of 0.05 V, attributed to the lower working voltage of the HC. Interestingly, for the full cell battery we find the specific capacity of around 70 mAh/g at 0.1 C and even around 35 mAh/g at high current rate of 5 C along with high rate capability up to 55 cycles. The diffusion kinetics of the full cell battery is investigated through detailed analysis of CV curves at various scan rates, and the diffusion coefficient is found to be 5--8$\\times$10$^{-11}$ cm$^2$/s for the anodic as well as cathodic peaks.",
+      "pdf_url": "https://arxiv.org/pdf/2401.15420v1",
+      "local_path": "2401.15420v1.pdf"
+    },
+    {
+      "id": "2005.04963v1",
+      "title": "Exploits, advances and challenges benefiting beyond Li-ion battery technologies",
+      "authors": [
+        "A. El Kharbachi",
+        "O. Zavorotynska",
+        "M. Latroche",
+        "F. Cuevas",
+        "V. Yartys",
+        "M. Fichtner"
+      ],
+      "published": "2020-05-11T09:49:10+00:00",
+      "categories": [
+        "physics.app-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "summary": "The battery market is undergoing quick expansion owing to the urgent demand for mobile devices, electric vehicles and energy storage systems, convoying the current energy transition. Beyond Li-ion batteries are of high importance to follow these multiple-speed changes and adapt to the specificity of each application. This review-study will address some of the relevant post-Li ion issues and battery technologies, including Na-ion batteries, Mg batteries, Ca-ion batteries, Zn-ion batteries, Al-ion batteries and anionic (F- and Cl-) shuttle batteries. MH-based batteries are also presented with emphasize on NiMH batteries, and novel MH-accommodated Li-ion batteries. Finally, to facilitate further research and development some future research trends and directions are discussed based on comparison of the different battery systems with respect to Li-ion battery assumptions. Remarkably, aqueous systems are most likely to be given reconsideration for intensive, cost-effective and safer production of batteries; for instance to be utilized in (quasi)-stationary energy storage applications.",
+      "pdf_url": "https://arxiv.org/pdf/2005.04963v1",
+      "local_path": "2005.04963v1.pdf"
+    },
+    {
+      "id": "2209.00778v2",
+      "title": "Detection of False Data Injection Attacks in Smart Grid: A Secure Federated Deep Learning Approach",
+      "authors": [
+        "Yang Li",
+        "Xinhao Wei",
+        "Yuanzheng Li",
+        "Zhaoyang Dong",
+        "Mohammad Shahidehpour"
+      ],
+      "published": "2022-09-02T01:44:24+00:00",
+      "categories": [
+        "cs.CR",
+        "eess.SY"
+      ],
+      "summary": "As an important cyber-physical system (CPS), smart grid is highly vulnerable to cyber attacks. Amongst various types of attacks, false data injection attack (FDIA) proves to be one of the top-priority cyber-related issues and has received increasing attention in recent years. However, so far little attention has been paid to privacy preservation issues in the detection of FDIAs in smart grid. Inspired by federated learning, a FDIA detection method based on secure federated deep learning is proposed in this paper by combining Transformer, federated learning and Paillier cryptosystem. The Transformer, as a detector deployed in edge nodes, delves deep into the connection between individual electrical quantities by using its multi-head self-attention mechanism. By using federated learning framework, our approach utilizes the data from all nodes to collaboratively train a detection model while preserving data privacy by keeping the data locally during training. To improve the security of federated learning, a secure federated learning scheme is designed by combing Paillier cryptosystem with federated learning. Through extensive experiments on the IEEE 14-bus and 118-bus test systems, the effectiveness and superiority of the proposed method are verifed.",
+      "pdf_url": "https://arxiv.org/pdf/2209.00778v2",
+      "local_path": "2209.00778v2.pdf"
+    },
+    {
+      "id": "1808.04184v2",
+      "title": "Stealth Attacks on the Smart Grid",
+      "authors": [
+        "Ke Sun",
+        "I\u00f1aki Esnaola",
+        "Samir M. Perlaza",
+        "H. Vincent Poor"
+      ],
+      "published": "2018-08-13T12:57:55+00:00",
+      "categories": [
+        "cs.IT",
+        "eess.SY"
+      ],
+      "summary": "Random attacks that jointly minimize the amount of information acquired by the operator about the state of the grid and the probability of attack detection are presented. The attacks minimize the information acquired by the operator by minimizing the mutual information between the observations and the state variables describing the grid. Simultaneously, the attacker aims to minimize the probability of attack detection by minimizing the Kullback-Leibler (KL) divergence between the distribution when the attack is present and the distribution under normal operation. The resulting cost function is the weighted sum of the mutual information and the KL divergence mentioned above. The tradeoff between the probability of attack detection and the reduction of mutual information is governed by the weighting parameter on the KL divergence term in the cost function. The probability of attack detection is evaluated as a function of the weighting parameter. A sufficient condition on the weighting parameter is given for achieving an arbitrarily small probability of attack detection. The attack performance is numerically assessed on the IEEE 30-Bus and 118-Bus test systems.",
+      "pdf_url": "https://arxiv.org/pdf/1808.04184v2",
+      "local_path": "1808.04184v2.pdf"
+    },
+    {
+      "id": "1708.07810v1",
+      "title": "Information-Theoretic Attacks in the Smart Grid",
+      "authors": [
+        "Ke Sun",
+        "Inaki Esnaola",
+        "Samir M. Perlaza",
+        "H. Vincent Poor"
+      ],
+      "published": "2017-08-25T17:03:10+00:00",
+      "categories": [
+        "cs.IT",
+        "eess.SY"
+      ],
+      "summary": "Gaussian random attacks that jointly minimize the amount of information obtained by the operator from the grid and the probability of attack detection are presented. The construction of the attack is posed as an optimization problem with a utility function that captures two effects: firstly, minimizing the mutual information between the measurements and the state variables; secondly, minimizing the probability of attack detection via the Kullback-Leibler divergence between the distribution of the measurements with an attack and the distribution of the measurements without an attack. Additionally, a lower bound on the utility function achieved by the attacks constructed with imperfect knowledge of the second order statistics of the state variables is obtained. The performance of the attack construction using the sample covariance matrix of the state variables is numerically evaluated. The above results are tested in the IEEE 30-Bus test system.",
+      "pdf_url": "https://arxiv.org/pdf/1708.07810v1",
+      "local_path": "1708.07810v1.pdf"
+    },
+    {
+      "id": "1705.06130v1",
+      "title": "Stability and Performance of Coalitions of Prosumers Through Diversification in the Smart Grid",
+      "authors": [
+        "Nicolas Gensollen",
+        "Vincent Gauthier",
+        "Monique Becker",
+        "Michel Marot"
+      ],
+      "published": "2017-05-13T14:16:56+00:00",
+      "categories": [
+        "cs.MA",
+        "cs.SI",
+        "eess.SY"
+      ],
+      "summary": "Achieving a successful energetic transition through a smarter and greener electricity grid is a major goal for the 21st century. It is assumed that such smart grids will be characterized by bidirectional electricity flows coupled with the use of small renewable generators and a proper efficient information system. All these bricks might enable end users to take part in the grid stability by injecting power, or by shaping their consumption against financial compensation. In this paper, we propose an algorithm that forms coalitions of agents, called prosumers, that both produce and consume. It is designed to be used by aggregators that aim at selling the aggregated surplus of production of the prosumers they control. We rely on real weather data sampled across stations of a given territory in order to simulate realistic production and consumption patterns for each prosumer. This approach enables us to capture geographical correlations among the agents while preserving the diversity due to different behaviors. As aggregators are bound to the grid operator by a contract, they seek to maximize their offer while minimizing their risk. The proposed graph based algorithm takes the underlying correlation structure of the agents into account and outputs coalitions with both high productivity and low variability. We show then that the resulting diversified coalitions are able to generate higher benefits on a constrained energy market, and are more resilient to random failures of the agents.",
+      "pdf_url": "https://arxiv.org/pdf/1705.06130v1",
+      "local_path": "1705.06130v1.pdf"
+    },
+    {
+      "id": "1410.1282v4",
+      "title": "Capacity Estimation for Vehicle-to-Grid Frequency Regulation Services with Smart Charging Mechanism",
+      "authors": [
+        "Albert Y. S. Lam",
+        "Ka-Cheong Leung",
+        "Victor O. K. Li"
+      ],
+      "published": "2014-10-06T08:12:10+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "Due to various green initiatives, renewable energy will be massively incorporated into the future smart grid. However, the intermittency of the renewables may result in power imbalance, thus adversely affecting the stability of a power system. Frequency regulation may be used to maintain the power balance at all times. As electric vehicles (EVs) become popular, they may be connected to the grid to form a vehicle-to-grid (V2G) system. An aggregation of EVs can be coordinated to provide frequency regulation services. However, V2G is a dynamic system where the participating EVs come and go independently. Thus it is not easy to estimate the regulation capacities for V2G. In a preliminary study, we modeled an aggregation of EVs with a queueing network, whose structure allows us to estimate the capacities for regulation-up and regulation-down, separately. The estimated capacities from the V2G system can be used for establishing a regulation contract between an aggregator and the grid operator, and facilitating a new business model for V2G. In this paper, we extend our previous development by designing a smart charging mechanism which can adapt to given characteristics of the EVs and make the performance of the actual system follow the analytical model.",
+      "pdf_url": "https://arxiv.org/pdf/1410.1282v4",
+      "local_path": "1410.1282v4.pdf"
+    },
+    {
+      "id": "2403.11054v1",
+      "title": "A Novel Mutual Insurance Model for Hedging Against Cyber Risks in Power Systems Deploying Smart Technologies",
+      "authors": [
+        "Pikkin Lau",
+        "Lingfeng Wang",
+        "Wei Wei",
+        "Zhaoxi Liu",
+        "Chee-Wooi Ten"
+      ],
+      "published": "2024-03-17T01:51:09+00:00",
+      "categories": [
+        "cs.GT",
+        "eess.SY"
+      ],
+      "summary": "In this paper, a novel cyber-insurance model design is proposed based on system risk evaluation with smart technology applications. The cyber insurance policy for power systems is tailored via cyber risk modeling, reliability impact analysis, and insurance premium calculation. A stochastic Epidemic Network Model is developed to evaluate the cyber risk by propagating cyberattacks among graphical vulnerabilities. Smart technologies deployed in risk modeling include smart monitoring and job thread assignment. Smart monitoring boosts the substation availability against cyberattacks with preventive and corrective measures. The job thread assignment solution reduces the execution failures by distributing the control and monitoring tasks to multiple threads. Reliability assessment is deployed to estimate load losses convertible to monetary losses. These monetary losses would be shared through a mutual insurance plan. To ensure a fair distribution of indemnity, a new Shapley mutual insurance principle is devised. Effectiveness of the proposed Shapley mutual insurance design is validated via case studies. The Shapley premium is compared with existent premium designs. It is shown that the Shapley premium has high indemnity levels closer to those of Tail Conditional Expectation premium. Meanwhile, the Shapley premium is nearly as affordable as the coalitional premium and keeps a relatively low insolvency probability.",
+      "pdf_url": "https://arxiv.org/pdf/2403.11054v1",
+      "local_path": "2403.11054v1.pdf"
+    },
+    {
+      "id": "2209.04508v1",
+      "title": "Parameterized Linear Power Flow for High Fidelity Voltage Solutions in Distribution Systems",
+      "authors": [
+        "Marija Markovi\u0107",
+        "Bri-Mathias Hodge"
+      ],
+      "published": "2022-09-09T20:14:02+00:00",
+      "categories": [
+        "eess.SY"
+      ],
+      "summary": "This paper introduces a new model for highly accurate distribution voltage solutions, coined as a parameterized linear power flow model. The proffered model is grounded on a physical model of linear power flow equations, and uses learning-aided parameterization to increase the fidelity of voltage solutions over a wide range of operating points. To this end, the closed-form analytic solution of the parameterization approach is obtained via a Gaussian Process using a deliberately small input sample and without the need for recomputation. The resulting \"self-adjusting\" parameter is system-specific and controls how accurate the proposed power flow equations are according to loading conditions. Under a certain value of the resulting parameter, the proposed model can fully recover the linearized formulation of a specialized branch flow model for radial distribution systems, the so-called simplified DistFlow model. Numerical examples are provided to illustrate the effectiveness of the proposed model as well as the improvement in solution accuracy for voltage magnitudes over the simplified DistFlow model and several other linear power flow models, at multiple loading levels. Simulations were carried out on six small- and medium-sized test systems.",
+      "pdf_url": "https://arxiv.org/pdf/2209.04508v1",
+      "local_path": "2209.04508v1.pdf"
+    },
+    {
+      "id": "2312.13705v1",
+      "title": "Benchmark Evaluation of Anomaly-Based Intrusion Detection Systems in the Context of Smart Grids",
+      "authors": [
+        "\u00d6mer Sen",
+        "Simon Glomb",
+        "Martin Henze",
+        "Andreas Ulbig"
+      ],
+      "published": "2023-12-21T10:17:36+00:00",
+      "categories": [
+        "cs.CR",
+        "eess.SY"
+      ],
+      "summary": "The increasing digitization of smart grids has made addressing cybersecurity issues crucial in order to secure the power supply. Anomaly detection has emerged as a key technology for cybersecurity in smart grids, enabling the detection of unknown threats. Many research efforts have proposed various machine-learning-based approaches for anomaly detection in grid operations. However, there is a need for a reproducible and comprehensive evaluation environment to investigate and compare different approaches to anomaly detection. The assessment process is highly dependent on the specific application and requires an evaluation that considers representative datasets from the use case as well as the specific characteristics of the use case. In this work, we present an evaluation environment for anomaly detection methods in smart grids that facilitates reproducible and comprehensive evaluation of different anomaly detection methods.",
+      "pdf_url": "https://arxiv.org/pdf/2312.13705v1",
+      "local_path": "2312.13705v1.pdf"
+    },
+    {
+      "id": "2303.10256v3",
+      "title": "PINNSim: A Simulator for Power System Dynamics based on Physics-Informed Neural Networks",
+      "authors": [
+        "Jochen Stiasny",
+        "Baosen Zhang",
+        "Spyros Chatzivasileiadis"
+      ],
+      "published": "2023-03-17T21:42:58+00:00",
+      "categories": [
+        "eess.SY",
+        "cs.LG",
+        "math.NA"
+      ],
+      "summary": "The dynamic behaviour of a power system can be described by a system of differential-algebraic equations. Time-domain simulations are used to simulate the evolution of these dynamics. They often require the use of small time step sizes and therefore become computationally expensive. To accelerate these simulations, we propose a simulator - PINNSim - that allows to take significantly larger time steps. It is based on Physics-Informed Neural Networks (PINNs) for the solution of the dynamics of single components in the power system. To resolve their interaction we employ a scalable root-finding algorithm. We demonstrate PINNSim on a 9-bus system and show the increased time step size compared to a trapezoidal integration rule. We discuss key characteristics of PINNSim and important steps for developing PINNSim into a fully fledged simulator. As such, it could offer the opportunity for significantly increasing time step sizes and thereby accelerating time-domain simulations.",
+      "pdf_url": "https://arxiv.org/pdf/2303.10256v3",
+      "local_path": "2303.10256v3.pdf"
+    },
+    {
+      "id": "1604.07576v2",
+      "title": "Robust Worst-Case Analysis of Demand-Side Management in Smart Grids",
+      "authors": [
+        "Javier Zazo",
+        "Santiago Zazo",
+        "Sergio Valcarcel Macua"
+      ],
+      "published": "2016-04-26T09:06:26+00:00",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "summary": "Demand-side management presents significant benefits in reducing the energy load in smart grids by balancing consumption demands or including energy generation and/or storage devices in the user's side. These techniques coordinate the energy load so that users minimize their monetary expenditure. However, these methods require accurate predictions in the energy consumption profiles, which make them inflexible to real demand variations. In this paper we propose a realistic model that accounts for uncertainty in these variations and calculates a robust price for all users in the smart grid. We analyze the existence of solutions for this novel scenario, propose convergent distributed algorithms to find them, and perform simulations considering energy expenditure. We show that this model can effectively reduce the monetary expenses for all users in a real-time market, while at the same time it provides a reliable production cost estimate to the energy supplier.",
+      "pdf_url": "https://arxiv.org/pdf/1604.07576v2",
+      "local_path": "1604.07576v2.pdf"
+    }
+  ]
+}
