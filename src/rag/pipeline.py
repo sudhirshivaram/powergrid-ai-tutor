@@ -15,7 +15,7 @@ from src.rag.query_expander import QueryExpander
 
 
 class RAGPipeline:
- """
+        """
  End-to-end RAG pipeline for document question answering.
  """
  
@@ -44,7 +44,7 @@ class RAGPipeline:
  self.api_key = api_key
  
  def build_from_documents(self, pdf_path: str, chunk_size: int = 512):
- """
+        """
  Build the complete pipeline from a PDF document.
  
  Args:
@@ -101,7 +101,7 @@ class RAGPipeline:
  print("=" * 50)
 
  def load_existing(self, persist_dir: str = "data/vector_stores/faiss"):
- """
+        """
  Load an existing vector store instead of building from scratch.
  
  Args:
@@ -140,7 +140,7 @@ class RAGPipeline:
  print("=" * 50)
 
  def query(self, question: str, filters: Optional[Dict[str, str]] = None, return_sources: bool = False):
- """
+        """
  Query the RAG system with optional metadata filtering.
 
  Args:
@@ -210,7 +210,7 @@ Answer:"""
  return self.generator.generate(question)
  
  def retrieve_only(self, question: str, filters: Optional[Dict[str, str]] = None):
- """
+        """
  Only retrieve relevant chunks without generation.
 
  Args:
