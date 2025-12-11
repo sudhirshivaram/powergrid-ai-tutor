@@ -8,7 +8,7 @@ sdk_version: "6.0.2"
 app_file: app.py
 pinned: false
 license: mit
-short_description: Advanced RAG system for electrical engineering & renewable energy
+short_description: Advanced RAG for electrical & renewables
 ---
 
 # ⚡ PowerGrid AI Tutor
@@ -339,15 +339,22 @@ powergrid-ai-tutor/
 │   └── vector_store/
 │       └── faiss_store.py   # FAISS index management
 ├── data/
-│   ├── raw/papers/          # Source PDFs
-│   └── vector_stores/faiss_full/  # Prebuilt FAISS index
+│   ├── raw/papers/          # Source PDFs (not included in HuggingFace Space)
+│   └── vector_stores/faiss_full/  # Prebuilt FAISS index (contains all content)
+├── docs/
+│   ├── FAQ.md               # Frequently asked questions
+│   ├── DEPLOYMENT_GUIDE.md  # HuggingFace deployment guide
+│   └── DEPLOYMENT_CHALLENGES.md  # Technical challenges solved
 ├── evaluation/
 │   ├── run_evaluation.py    # Evaluation script
 │   └── datasets/            # Test queries & ground truth
 ├── app.py                   # Main entry point
 ├── requirements.txt         # Dependencies
+├── SUBMISSION.txt           # Certification checklist
 └── README.md               # This file
 ```
+
+**Note:** PDF files are not included in the HuggingFace Space deployment. The vector store (`data/vector_stores/faiss_full/`) contains all extracted content, embeddings, and metadata. PDFs are only needed if you want to rebuild the index from scratch. See `docs/FAQ.md` for more details.
 
 ---
 
