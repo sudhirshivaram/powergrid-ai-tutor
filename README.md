@@ -82,6 +82,10 @@ python app.py
 - "How do microgrids improve grid resilience?"
 - "Explain vehicle-to-grid (V2G) systems"
 
+**Out-of-Domain Example:**
+- Question: "How do I cook rice?"
+- Response: "I'm here to help with questions about electrical engineering, renewable energy, and power systems. This topic is outside my area of expertise, but I'd be happy to discuss solar panels, wind turbines, batteries, smart grids, or any related electrical engineering concepts. What would you like to learn about?"
+
 ---
 
 ## System Architecture
@@ -366,10 +370,9 @@ powergrid-ai-tutor/
 
 ## Known Limitations
 
-1. **Broad Single-Term Queries**: Questions like "batteries" may return partial information if context is limited
-2. **Regional Restrictions**: Gemini may not work on all HuggingFace servers (use OpenAI)
-3. **Response Time**: 2-4 seconds per query (trade-off for quality)
-4. **Domain Boundaries**: Borderline topics (general electrical engineering) may be rejected
+1. **Regional Restrictions**: Gemini may not work on all HuggingFace servers (use OpenAI)
+2. **Response Time**: 2-4 seconds per query (trade-off for quality)
+3. **Domain Boundaries**: The tutor specializes in recent research and developments in renewable energy and power systems. Questions about general electrical engineering principles may receive limited responses unless they relate to core focus areas (solar, wind, batteries, smart grids)
 
 ---
 
