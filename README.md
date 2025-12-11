@@ -1,3 +1,16 @@
+---
+title: PowerGrid AI Tutor
+emoji: ⚡
+colorFrom: purple
+colorTo: blue
+sdk: gradio
+sdk_version: "6.0.2"
+app_file: app.py
+pinned: false
+license: mit
+short_description: Advanced RAG system for electrical engineering & renewable energy
+---
+
 # ⚡ PowerGrid AI Tutor
 
 An advanced Retrieval-Augmented Generation (RAG) system for electrical engineering and renewable energy education.
