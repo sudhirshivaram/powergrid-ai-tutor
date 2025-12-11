@@ -1,9 +1,9 @@
 """
 
-    Chunking splits long documents into smaller pieces. This is critical because:
-    * LLMs have token limits
-    * Smaller chunks = more precise retrieval
-    * Better matching between query and context
+ Chunking splits long documents into smaller pieces. This is critical because:
+ * LLMs have token limits
+ * Smaller chunks = more precise retrieval
+ * Better matching between query and context
 
 """
 
@@ -14,7 +14,18 @@ Text chunking strategies for splitting documents into smaller pieces.
 from typing import List
 from llama_index.core import Document
 from llama_index.core.node_parser import SentenceSplitter
+import sys
+from pathlib import Path
 
+# Add project root to path for config import
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+try:
+    from config import CHUNKING
+except ImportError:
+    # Fallback if config.py not found
+    CHUNKING = {"chunk_size": 512, "chunk_overlap": 50}
 
 
 class TextChunker:
@@ -22,23 +33,23 @@ class TextChunker:
     Handles splitting documents into chunks for embedding and retrieval.
     """
     
-    def __init__(self, chunk_size: int = 512, chunk_overlap: int = 50):
+    def __init__(self, chunk_size: int = None, chunk_overlap: int = None):
         """
         Initialize the chunker with specified parameters.
         
         Args:
-            chunk_size: Maximum number of tokens per chunk
-            chunk_overlap: Number of tokens to overlap between chunks
-                          (helps maintain context across chunk boundaries)
+            chunk_size: Maximum number of tokens per chunk (uses config.py if not provided)
+            chunk_overlap: Number of tokens to overlap between chunks (uses config.py if not provided)
         """
-        self.chunk_size = chunk_size
-        self.chunk_overlap = chunk_overlap
+        # Use config values if not provided
+        self.chunk_size = chunk_size if chunk_size is not None else CHUNKING["chunk_size"]
+        self.chunk_overlap = chunk_overlap if chunk_overlap is not None else CHUNKING["chunk_overlap"]
         
         # SentenceSplitter from LlamaIndex
         # Splits on sentence boundaries for better semantic coherence
         self.splitter = SentenceSplitter(
-            chunk_size=chunk_size,
-            chunk_overlap=chunk_overlap
+            chunk_size=self.chunk_size,
+            chunk_overlap=self.chunk_overlap
         )
     
     def chunk_documents(self, documents: List[Document]) -> List[Document]:
@@ -108,7 +119,7 @@ class TextChunker:
         
         Args:
             nodes: List of chunked documents
-            
+        
         Returns:
             Dictionary with chunk statistics
         """
@@ -127,16 +138,16 @@ class TextChunker:
 
 """
 
-  What this code does:
-    * SentenceSplitter: LlamaIndex's intelligent splitter that respects sentence boundaries
-    * chunk_size: Target size for each chunk (512 tokens = roughly 1-2 paragraphs)
-    * chunk_overlap: Overlapping text between chunks prevents losing context at boundaries
-    * get_chunk_info: Utility method to see chunking statistics
+ What this code does:
+ * SentenceSplitter: LlamaIndex's intelligent splitter that respects sentence boundaries
+ * chunk_size: Target size for each chunk (512 tokens = roughly 1-2 paragraphs)
+ * chunk_overlap: Overlapping text between chunks prevents losing context at boundaries
+ * get_chunk_info: Utility method to see chunking statistics
 
-  Why these parameters:
-  
-    * 512 tokens: Good balance between context and precision
-    * 50 overlap: Ensures continuity between chunks
-    * Sentence boundaries: Better semantic coherence than arbitrary splits
+ Why these parameters:
+ 
+ * 512 tokens: Good balance between context and precision
+ * 50 overlap: Ensures continuity between chunks
+ * Sentence boundaries: Better semantic coherence than arbitrary splits
 
 """

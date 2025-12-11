@@ -7,26 +7,37 @@ from llama_index.core import VectorStoreIndex
 from llama_index.core.schema import NodeWithScore
 from llama_index.core.vector_stores import MetadataFilters, ExactMatchFilter, FilterOperator
 from rank_bm25 import BM25Okapi
+import sys
+from pathlib import Path
+
+# Add project root to path for config import
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+try:
+    from config import RETRIEVAL
+except ImportError:
+    RETRIEVAL = {"top_k": 5}
 
 class Retriever:
     """
     Handles retrieval of relevant document chunks from vector store.
     """
     
-    def __init__(self, index: VectorStoreIndex, top_k: int = 5, use_hybrid: bool = False):
+    def __init__(self, index: VectorStoreIndex, top_k: int = None, use_hybrid: bool = False):
         """
         Initialize retriever with a vector index.
         
         Args:
             index: VectorStoreIndex to query
-            top_k: Number of most relevant chunks to retrieve
+            top_k: Number of most relevant chunks to retrieve (uses config.py if not provided)
         """
         self.index = index
-        self.top_k = top_k
+        self.top_k = top_k if top_k is not None else RETRIEVAL["top_k"]
         self.use_hybrid = use_hybrid
         
         # Create retriever from index
-        self.retriever = index.as_retriever(similarity_top_k=top_k)
+        self.retriever = index.as_retriever(similarity_top_k=self.top_k)
         if self.use_hybrid:
             self._initialize_bm25()
     

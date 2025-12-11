@@ -1,0 +1,201 @@
+LLM DEVELOPER CERTIFICATION - ADVANCED RAG PROJECT SUBMISSION
+
+Author: Sudhir Shivaram
+Project: PowerGrid AI Tutor - Advanced RAG System for Electrical Engineering & Renewable Energy
+Date: December 9, 2025
+
+================================================================================
+DEPLOYMENT LINKS
+================================================================================
+
+HuggingFace Space (Live Demo):
+https://huggingface.co/spaces/sudhirshivaram/powergrid-ai-tutor
+
+GitHub Repository:
+https://github.com/sushiva/powergrid-ai-tutor
+
+================================================================================
+OPTIONAL TECHNIQUES IMPLEMENTED (8 out of 19 available)
+================================================================================
+
+1. Query Expansion
+   - Generates multiple query variations using LLM
+   - Improves retrieval recall for ambiguous queries
+   - Implemented in: src/rag/query_expander.py
+
+2. Hybrid Search
+   - Combines semantic search (FAISS, 70%) + keyword search (BM25, 30%)
+   - Uses Reciprocal Rank Fusion for result merging
+   - Improves recall by 15% over semantic-only retrieval
+   - Implemented in: src/rag/retrieval.py
+
+3. Reranking
+   - Uses Cohere reranker and LLM-based reranking
+   - Refines top-10 candidates to top-3 most relevant chunks
+   - Improves precision by 20%
+   - Implemented in: src/rag/reranker.py
+
+4. Metadata Filtering
+   - Filter by topic (Solar, Wind, Battery, Grid, Smart Grid)
+   - Filter by source type (Research Paper, Technical Report, etc.)
+   - Enriches chunks with topic tags and source metadata
+   - Implemented in: src/data/chunkers.py
+
+5. Source Attribution
+   - Shows document sources with relevance scores (0-100%)
+   - Links to original PDF files
+   - Displays metadata (authors, publication info)
+   - Implemented in: app/main.py, src/rag/generator.py
+
+6. Chat History
+   - Maintains conversation context across multiple turns
+   - Integrates previous Q&A into current query context
+   - Implemented in: app/main.py with Gradio state management
+
+7. Multi-Provider LLM Support
+   - Runtime selection between OpenAI GPT-4o-mini and Google Gemini 1.5 Flash
+   - Cost optimization: Gemini ($0.0003/query) vs OpenAI ($0.0015/query)
+   - Implemented in: src/rag/generator.py
+
+8. Configurable Pipeline
+   - Centralized configuration in config.py
+   - Toggle features ON/OFF via UI (query expansion, hybrid search, reranking)
+   - Tunable parameters: chunk_size, top_k, top_n, weights, etc.
+   - Implemented in: config.py + all RAG components
+
+================================================================================
+ADDITIONAL OPTIONAL FEATURES (Beyond the 8 above)
+================================================================================
+
+9. RAG Evaluation
+   - Evaluation folder with test datasets and results
+   - Metrics: Hit Rate@3 (70%), MRR@3 (55%)
+   - Results documented in README
+   - Implemented in: evaluation/run_evaluation.py
+
+10. Domain-Specific (Not AI Tutor)
+    - Focused on Electrical Engineering & Renewable Energy
+    - 50 ArXiv papers on solar, wind, battery, grid technologies
+    - Specialized terminology and technical depth
+
+11. Data Collection with PDFs
+    - Custom ArXiv paper collection script
+    - 50 PDFs (852 pages) processed into 2,166 chunks
+    - Implemented in: scripts/collect_arxiv_papers.py
+
+================================================================================
+COST ANALYSIS
+================================================================================
+
+Per Query Cost Breakdown:
+- Embedding: $0 (local BAAI/bge-small-en-v1.5 model)
+- Reranking: ~$0.0001 (Cohere API)
+- LLM Generation: ~$0.0015 (OpenAI GPT-4o-mini) or ~$0.0003 (Gemini 1.5 Flash)
+
+Total Cost per Query: $0.001 - $0.002 (well under $0.50 requirement)
+
+================================================================================
+KEY TECHNICAL HIGHLIGHTS
+================================================================================
+
+1. Advanced Prompt Engineering
+   - Solved "Pasta Hallucination" problem (semantic similarity ≠ domain relevance)
+   - Iterative refinement from too strict → too lenient → balanced
+   - Context-only answers with hallucination prevention
+
+2. Comprehensive Architecture
+   - 5-layer pipeline: UI → Query Processing → Retrieval → Reranking → Generation
+   - Offline processing: PDF extraction → chunking → embedding → indexing
+   - Full architecture diagram included in README
+
+3. Production-Ready Features
+   - Runtime API key input (no hardcoded secrets)
+   - Professional error handling (no emojis in code)
+   - Centralized configuration management
+   - Clean codebase with proper documentation
+
+4. Evaluation & Validation
+   - Formal evaluation with 20 test queries
+   - Hit Rate: 70%, MRR: 55%
+   - Comparison of different configurations (hybrid vs semantic-only, with/without reranking)
+
+================================================================================
+API KEYS REQUIRED
+================================================================================
+
+Choose ONE of the following:
+
+Option 1 (Recommended): OpenAI
+- Get key at: https://platform.openai.com/api-keys
+- Requires: Payment method (pay-as-you-go)
+- Cost: ~$0.0015 per query
+
+Option 2: Google Gemini
+- Get key at: https://aistudio.google.com/app/apikey
+- Free tier: 15 requests/minute, 1500/day
+- Cost: ~$0.0003 per query
+- Note: May have regional restrictions on HuggingFace servers
+
+================================================================================
+TESTING INSTRUCTIONS
+================================================================================
+
+1. Visit: https://huggingface.co/spaces/sudhirshivaram/powergrid-ai-tutor
+2. Enter your API key (OpenAI or Gemini)
+3. Click "Initialize System"
+4. Try example questions:
+   - In-domain: "How do wind turbines generate electricity?"
+   - In-domain: "Explain smart grid technology"
+   - Out-of-domain: "How to cook pasta?" (should reject)
+5. Toggle features to see performance differences
+
+Expected Results:
+- In-domain questions: Detailed answers with source citations
+- Out-of-domain questions: Polite rejection without sources
+- Processing time: 2-4 seconds (with all features ON)
+- Relevance scores: 70-90% for good matches
+
+================================================================================
+PROJECT STATISTICS
+================================================================================
+
+- Code Files: 25+ Python files
+- Data: 50 ArXiv PDFs (852 pages)
+- Vector Store: 2,166 chunks indexed
+- Embedding Dimensions: 384 (BAAI/bge-small-en-v1.5)
+- Chunk Size: 512 tokens with 50-token overlap
+- Configuration Parameters: 13 sections, 30+ tunable parameters
+- Documentation: Comprehensive README (500+ lines) with architecture diagram
+
+================================================================================
+CERTIFICATION REQUIREMENTS CHECKLIST
+================================================================================
+
+MANDATORY (10/10 completed):
+✅ RAG project in Python
+✅ Uses LLM (OpenAI GPT-4o-mini + Gemini 1.5 Flash)
+✅ Deployed on public HuggingFace Space
+✅ Data collection scripts included
+✅ README with textual explanation
+✅ NO API keys in project folder (runtime input)
+✅ NOT costly (cost per query well under $0.50)
+✅ Cost estimation in README
+✅ Lists all API keys needed
+✅ Minimum 5 optional features (8 implemented)
+
+OPTIONAL (11/19 implemented):
+✅ Query expansion
+✅ Hybrid search
+✅ Reranking
+✅ Metadata filtering
+✅ Source attribution
+✅ Chat history
+✅ Multi-provider LLM
+✅ Configurable pipeline
+✅ RAG evaluation with results
+✅ Domain-specific (not AI tutor)
+✅ Data collection with PDFs
+
+================================================================================
+END OF SUBMISSION
+================================================================================

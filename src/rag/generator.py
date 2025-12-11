@@ -4,6 +4,7 @@ Generation module for creating answers using LLM.
 
 from typing import List
 from llama_index.core import VectorStoreIndex
+from llama_index.core.prompts import PromptTemplate
 from llama_index.core.schema import NodeWithScore
 
 
@@ -21,9 +22,25 @@ class Generator:
         """
         self.index = index
         
-        # Create query engine from index
-        # This handles both retrieval and generation
-        self.query_engine = index.as_query_engine()
+        # Create query engine with prompt to prevent hallucination
+        qa_prompt_str = (
+            "You are an AI assistant specialized in electrical engineering, renewable energy, power systems, and smart grids.\n\n"
+            "Instructions:\n"
+            "1. Read the context provided below.\n"
+            "2. If the question is related to electrical engineering, renewable energy, power systems, or smart grids, answer using the context - even if the context is partial or general.\n"
+            "3. For broad questions (e.g., 'batteries', 'transformers'), provide what information you can find in the context.\n"
+            "4. Only if the question is completely unrelated to these domains (e.g., cooking, sports, entertainment), respond with: 'I'm here to help with questions about electrical engineering, renewable energy, and power systems. This topic is outside my area of expertise, but I'd be happy to discuss solar panels, wind turbines, batteries, smart grids, or any related electrical engineering concepts. What would you like to learn about?'\n\n"
+            "Context:\n"
+            "{context_str}\n\n"
+            "Question: {query_str}\n\n"
+            "Answer:"
+        )
+        
+        qa_prompt_template = PromptTemplate(qa_prompt_str)
+        
+        self.query_engine = index.as_query_engine(
+            text_qa_template=qa_prompt_template
+        )
     
     def generate(self, query: str) -> str:
         """

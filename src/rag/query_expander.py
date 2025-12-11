@@ -4,6 +4,17 @@ Query expansion module to improve retrieval by expanding user queries.
 
 from typing import List
 from llama_index.core import Settings
+import sys
+from pathlib import Path
+
+# Add project root to path for config import
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+try:
+    from config import QUERY_EXPANSION
+except ImportError:
+    QUERY_EXPANSION = {"max_expansions": 5}
 
 
 class QueryExpander:
@@ -12,14 +23,14 @@ class QueryExpander:
     to improve retrieval accuracy, especially for BM25 keyword search.
     """
 
-    def __init__(self, max_expansions: int = 5):
+    def __init__(self, max_expansions: int = None):
         """
         Initialize query expander.
 
         Args:
-            max_expansions: Maximum number of expansion terms to add
+            max_expansions: Maximum number of expansion terms to add (uses config.py if not provided)
         """
-        self.max_expansions = max_expansions
+        self.max_expansions = max_expansions if max_expansions is not None else QUERY_EXPANSION["max_expansions"]
         self.expansion_prompt_template = """You are a power systems and renewable energy expert.
 Your task is to expand the user's query with related technical terms, synonyms, and acronyms.
 

@@ -76,7 +76,7 @@ From your PowerGrid AI Tutor project directory:
 
 ```bash
 # Set variables (adjust paths as needed)
-PROJECT_DIR="/home/bhargav/portfolio-project/powergrid-ai-tutor"
+PROJECT_DIR="/home/sudhir shivaram/portfolio-project/powergrid-ai-tutor"
 SPACE_DIR="/path/to/powergrid-ai-tutor"  # Your cloned HF space
 
 # Copy core application
