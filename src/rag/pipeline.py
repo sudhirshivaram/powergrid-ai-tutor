@@ -20,7 +20,7 @@ class RAGPipeline:
  """
  
  def __init__(self, use_reranking: bool = False, use_hybrid: bool = False, use_query_expansion: bool = False, llm_provider: str = "gemini", api_key: str = None):
- """
+        """
  Initialize the RAG pipeline components.
 
  Args:
